@@ -1,0 +1,23 @@
+
+state={
+	id=813
+	name="STATE_STRATHMORE"
+
+	history={
+		owner = CGY
+		add_core_of = CGY
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2365 5
+		}
+	}
+
+	provinces={
+		2365 2465 9665 9672 9687 9712
+	}
+	manpower=2500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

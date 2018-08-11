@@ -1,0 +1,21 @@
+
+state={
+	id=820
+	name="STATE_JENNER"
+	provinces={
+		2553 2554 9660
+	}
+	history={
+		owner = MDH
+		add_core_of = MDH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9653 10
+		}
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

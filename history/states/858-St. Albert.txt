@@ -1,0 +1,11 @@
+
+state={
+	id=858
+	name="STATE_ST_ALBERT"
+	provinces={
+		9806 9815 9817 9819 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

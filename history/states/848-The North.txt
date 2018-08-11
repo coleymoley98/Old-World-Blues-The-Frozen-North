@@ -1,0 +1,11 @@
+
+state={
+	id=848
+	name="STATE_NORTH"
+	provinces={
+		292 680 692 705 1161 2146 2223 
+	}
+	manpower=20
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

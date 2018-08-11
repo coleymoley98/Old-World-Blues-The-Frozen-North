@@ -1,0 +1,11 @@
+
+state={
+	id=825
+	name="STATE_LAPORTE"
+	provinces={
+		9698 9705 9708 9727 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

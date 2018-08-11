@@ -1,0 +1,21 @@
+
+state={
+	id=821
+	name="STATE_EMPRESS"
+	provinces={
+		9659 9664 9671
+	}
+	history={
+		owner = MDH
+		add_core_of = MDH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9671 5
+		}
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

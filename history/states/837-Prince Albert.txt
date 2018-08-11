@@ -1,0 +1,11 @@
+
+state={
+	id=837
+	name="STATE_PA"
+	provinces={
+		9772 9786 9793 9799 9802 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

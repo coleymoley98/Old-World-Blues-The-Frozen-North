@@ -1,0 +1,11 @@
+
+state={
+	id=829
+	name="STATE_LASHBURN"
+	provinces={
+		9755 9761 9790 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,11 @@
+
+state={
+	id=841
+	name="STATE_MOOSE_JAW"
+	provinces={
+		59 
+	}
+	manpower=20
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

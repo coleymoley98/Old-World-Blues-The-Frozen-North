@@ -1,0 +1,54 @@
+﻿division_template = {
+	name = "PA Company"
+
+	regiments = {
+		power_armour = { x = 0 y = 0 }
+		power_armour = { x = 0 y = 1 }
+		power_armour = { x = 0 y = 2 }
+		power_armour = { x = 1 y = 0 }
+		power_armour = { x = 1 y = 1 }
+		power_armour = { x = 1 y = 2 }
+		power_armour = { x = 2 y = 0 }
+		power_armour = { x = 2 y = 1 }
+	}
+}
+units = {
+	division {
+		name = "Alpha Team"
+		location = 9722
+		division_template = "PA Company"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division {
+		name = "Beta Team"
+		location = 9722
+		division_template = "PA Company"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = energy_equipment_2
+			creator = "NBH"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = power_armor_equipment_2
+			creator = "NBH"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+}

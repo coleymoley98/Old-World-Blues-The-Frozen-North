@@ -1,0 +1,11 @@
+
+state={
+	id=842
+	name="STATE_OUTLOOK"
+	provinces={
+		9700 9719 9739 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

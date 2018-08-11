@@ -1,0 +1,54 @@
+﻿capital = 9722
+oob = "NBH_2275"
+set_country_flag = is_brotherhood_nation
+
+set_technology = {
+	elite_army = 1
+	standard_weaponry_tech = 1
+	blunt_weaponry = 1
+	tribal_civilization = 1
+	settled_civilization = 1
+	scientific_civilization = 1
+	destroyer_tech = 1
+	destroyer_tech_2 = 1
+	cruiser_tech = 1
+	heavy_cruiser_tech = 1
+	basic_laser_weaponry = 1
+	improved_laser_weaponry  = 1
+	power_armour = 1
+	power_armour_t45d = 1
+}
+
+set_stability = 0.7
+set_research_slots = 4
+set_politics = {
+	parties = {
+		people = { popularity = 0 }
+		elites = { popularity = 0 }
+		intellectuals = { popularity = 100 }
+		ruler = { popularity = 0 }
+	}
+	ruling_party = intellectuals
+	elections_allowed = no
+}
+
+add_ideas = {
+	bunkerblues
+	oldguard
+}
+
+#Mutant Opinion Modifiers to keep them from joining the BOS faction also an opinion modifier for the Washington state BOS
+
+add_opinion_modifier = { target = TRL modifier = boshatesmutants }
+add_opinion_modifier = { target = WBH modifier = boshateswashingtonstatebos }
+
+create_country_leader  = {
+	name = "Maxwell Day"
+	picture = "Portrait_Brotherhood_Generic_1.dds"
+	expire = "3000.1.1"
+	ideology = technocracy
+	traits = {
+		stout_defender
+		fortifications_expert
+	}
+}

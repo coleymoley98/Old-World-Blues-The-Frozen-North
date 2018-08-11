@@ -1,0 +1,8 @@
+supply_area={
+	id=255
+	name="SUPPLYAREA_OKANAGAN"
+	value=10
+	states={
+		793 795 792
+	}
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=794
+	name="STATE_VALHALLAH"
+	provinces={
+		445 2125 2532 3046 3829 3831 3832 4391 4393 7387
+	}
+	history={
+			owner = CBK
+			add_core_of = CBK
+			buildings = {
+				infrastructure = 2
+				}
+	}
+	state_category=rural
+	manpower=1200
+	buildings_max_level_factor=1.000
+}

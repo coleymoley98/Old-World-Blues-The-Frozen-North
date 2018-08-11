@@ -1,0 +1,45 @@
+﻿capital = 9653
+
+oob = "SWC_2275"
+set_country_flag = is_settler_nation
+
+set_technology = {
+	standard_weaponry_tech = 1
+	blunt_weaponry = 1
+	support_weaponry = 1
+	anti_personnel_tech = 1
+	recon_tech = 1
+	bike_tech_1 = 1
+	tribal_civilization = 1
+	settled_civilization = 1
+
+}
+
+set_stability = 0.65
+set_war_support = 0.25
+set_convoys = 100
+set_research_slots = 2
+set_politics = {
+	parties = {
+		people = { popularity = 60 }
+		elites = { popularity = 20 }
+		intellectuals = { popularity = 0 }
+		ruler = { popularity = 20 }
+	}
+	ruling_party = people
+	elections_allowed = no
+}
+
+add_ideas = {
+}
+
+create_country_leader  = {
+	name = "Eddie"
+	desc = "Eddie_DESC"
+	picture = "Portrait_Eddie.dds"
+	expire = "3000.1.1"
+	ideology = town_hall_democracy
+
+	traits = {
+	}
+}

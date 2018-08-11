@@ -1,0 +1,9 @@
+
+supply_area={
+	id=253
+	name="SUPPLYAREA_253"
+	value=0
+	states={
+		800 799 803 805 804 
+	}
+}

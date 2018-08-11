@@ -1,0 +1,11 @@
+
+state={
+	id=836
+	name="STATE_EDMONTON"
+	provinces={
+		9805 9807 9808 9811 9814 
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

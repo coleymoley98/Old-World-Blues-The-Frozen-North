@@ -1,0 +1,175 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+1041;5035;sea;296;-1;-1;-1;-1;;Shi to Shi
+7083;7082;;1880;-1;-1;-1;-1;PORT_MAW;Port Maw to Port Maw
+9226;9227;sea;9229;-1;-1;-1;-1;;Washington Brotherhood to Washington Brotherhood
+9234;9239;sea;9238;-1;-1;-1;-1;;Washington Brotherhood to Washington Brotherhood
+9246;9243;sea;9241;-1;-1;-1;-1;;Washington Brotherhood to Washington Brotherhood
+9233;9231;sea;9229;-1;-1;-1;-1;;Washington Brotherhood to Washington Brotherhood
+9236;9231;sea;9229;-1;-1;-1;-1;;Washington Brotherhood to Washington Brotherhood
+1519;9248;sea;9247;-1;-1;-1;-1;;Washington Brotherhood to Washington Brotherhood
+7393;9256;sea;9251;-1;-1;-1;-1;;Washington Brotherhood to Bellingham
+4337;1952;sea;1882;-1;-1;-1;-1;;Washington Brotherhood to Port Maw
+4447;9258;sea;9252;-1;-1;-1;-1;;New Victoria to New Victoria
+9260;9258;sea;9252;-1;-1;-1;-1;;New Victoria to New Victoria
+9257;9258;sea;9252;-1;-1;-1;-1;;New Victoria to New Victoria
+2523;3877;sea;1883;-1;-1;-1;-1;;Port Maw to Rib Breakers
+4341;1980;sea;1883;-1;-1;-1;-1;;Port Maw to Rib Breakers
+7103;1980;sea;1883;-1;-1;-1;-1;;Port Maw to Rib Breakers
+4200;4202;sea;1884;-1;-1;-1;-1;;Mirelurk Tribe to Rib Breakers
+4201;1982;sea;1884;-1;-1;-1;-1;;Mirelurk Tribe to Rib Breakers
+4108;1989;sea;1884;-1;-1;-1;-1;;Mirelurk Tribe to Rib Breakers
+7125;4107;sea;1885;-1;-1;-1;-1;;Mirelurk Tribe to Troll Warren
+7126;2163;sea;1885;-1;-1;-1;-1;;Mirelurk Tribe to Troll Warren
+1394;2163;sea;1885;-1;-1;-1;-1;;Mirelurk Tribe to Troll Warren
+7383;3926;sea;5814;-1;-1;-1;-1;;Issaquah Nation to Old Country
+7386;3942;sea;5816;-1;-1;-1;-1;;Old Country to Bellingham
+1969;3935;sea;5816;-1;-1;-1;-1;;Old Country to Bellingham
+3932;7385;sea;5815;-1;-1;-1;-1;;Old Country to Bellingham
+8577;7385;sea;5815;-1;-1;-1;-1;;Old Country to Bellingham
+2485;7385;sea;5815;-1;-1;-1;-1;;Old Country to Bellingham
+7208;3643;sea;5861;-1;-1;-1;-1;;Bellingham to Broken Coast
+7215;3989;sea;5864;-1;-1;-1;-1;;Bellingham to Broken Coast
+2151;3823;sea;5865;-1;-1;-1;-1;;Dredgers to Dredgers
+2469;7219;sea;5870;-1;-1;-1;-1;;Dredgers to Dredgers
+2545;4443;sea;592;-1;-1;-1;-1;;New Victoria to New Victoria
+7437;4277;sea;8377;-1;-1;-1;-1;;Ires to Murtagh
+3273;5807;sea;3059;-1;-1;-1;-1;;Legion to Rapids
+5640;5788;sea;3059;-1;-1;-1;-1;;Legion to Rapids
+5640;5785;sea;3059;-1;-1;-1;-1;;Legion to Rapids
+5640;5786;sea;3059;-1;-1;-1;-1;;Legion to Rapids
+5641;5775;sea;3060;-1;-1;-1;-1;;Legion to Rapids
+5642;896;sea;3060;-1;-1;-1;-1;;Legion to Rapids
+4789;2075;sea;5923;-1;-1;-1;-1;;NCR to NCR
+4737;6663;sea;3055;-1;-1;-1;-1;;NCR to NCR
+2453;4727;sea;3053;-1;-1;-1;-1;;NCR to NCR
+2407;9625;sea;303;-1;-1;-1;-1;;NCR to NCR
+9625;9207;sea;303;-1;-1;-1;-1;;NCR to NCR
+9207;9624;sea;303;-1;-1;-1;-1;;NCR to NCR
+9624;9625;sea;303;-1;-1;-1;-1;;NCR to NCR
+9624;9626;sea;303;-1;-1;-1;-1;;NCR to NCR
+9625;9626;sea;303;-1;-1;-1;-1;;NCR to NCR
+9626;4596;sea;303;-1;-1;-1;-1;;NCR to NCR
+9626;9208;sea;315;-1;-1;-1;-1;;NCR to NCR
+9208;9627;sea;315;-1;-1;-1;-1;;NCR to NCR
+9627;3428;sea;315;-1;-1;-1;-1;;NCR to BOS
+965;6607;sea;3062;-1;-1;-1;-1;;Twisted Hairs to Mojave Raiders
+5644;2317;sea;3061;-1;-1;-1;-1;;Twisted Hairs to The Rapids
+5128;5133;sea;607;-1;-1;-1;-1;;Haida Confederation to Haida Confederation
+5129;5136;sea;147;-1;-1;-1;-1;;Haida Confederation to Haida Confederation
+5135;660;sea;147;-1;-1;-1;-1;;Haida Confederation to Haida Confederation
+660;5137;sea;147;-1;-1;-1;-1;;Haida Confederation to Haida Confederation
+3691;620;sea;125;-1;-1;-1;-1;;Broken Coast to Broken Coast
+8485;7423;sea;77;-1;-1;-1;-1;;Broken Coast to Broken Coast
+3716;7401;sea;77;-1;-1;-1;-1;;Broken Coast to Broken Coast
+7400;7399;sea;77;-1;-1;-1;-1;;Broken Coast to Broken Coast
+3713;436;sea;77;-1;-1;-1;-1;;Broken Coast to Broken Coast
+4409;4407;sea;77;-1;-1;-1;-1;;Broken Coast to Broken Coast
+4413;4401;sea;527;-1;-1;-1;-1;;Broken Coast to Broken Coast
+4401;4404;sea;527;-1;-1;-1;-1;;Broken Coast to Broken Coast
+4406;4403;sea;527;-1;-1;-1;-1;;Broken Coast to Broken Coast
+4403;7403;sea;527;-1;-1;-1;-1;;Broken Coast to Broken Coast
+7511;4327;sea;7510;-1;-1;-1;-1;;The Cause to Issaquah
+229;4402;sea;527;-1;-1;-1;-1;;Broken Coast to Broken Coast
+1506;5746;sea;1887;-1;-1;-1;-1;;Old Country to Yakama Nation
+4060;5739;sea;1888;-1;-1;-1;-1;;Old Country to Yakama Nation
+1487;5744;sea;1887;-1;-1;-1;-1;;Old Country to Yakama Nation
+4046;5749;sea;1886;-1;-1;-1;-1;;Old Country to Yakama Nation
+4046;4042;sea;1886;-1;-1;-1;-1;;Old Country to Yakama Nation
+1945;8571;sea;1888;-1;-1;-1;-1;;Yakama to Pharohs
+1455;4067;sea;1889;-1;-1;-1;-1;;Yakama to Pharohs
+4077;1453;sea;1889;-1;-1;-1;-1;;Yakama to Pharohs
+1430;4075;sea;1889;-1;-1;-1;-1;;Yakama to Pharohs
+4265;4468;sea;1892;-1;-1;-1;-1;;Pharohs to Shoshone Nation
+4205;1363;sea;1891;-1;-1;-1;-1;;Pharohs to Shoshone Nation
+4267;4470;sea;1892;-1;-1;-1;-1;;Pharohs to Shoshone Nation
+78;6294;sea;6293;-1;-1;-1;-1;;New Canaan to New Canaan
+7473;7484;sea;3073;-1;-1;-1;-1;;Dead Horses to Dead Horses
+7478;3095;sea;3073;-1;-1;-1;-1;;Dead Horses to Dead Horses
+7479;1562;sea;3071;-1;-1;-1;-1;;Dead Horses to White Legs
+7483;8130;sea;3071;-1;-1;-1;-1;;Dead Horses to White Legs
+6736;6691;sea;3083;-1;-1;-1;-1;;Old Bones to Foragers
+6736;6690;sea;3083;-1;-1;-1;-1;;Old Bones to Foragers
+3099;7464;sea;3083;-1;-1;-1;-1;;Old Bones to Foragers
+6821;6653;sea;3082;-1;-1;-1;-1;;Yampa to Foragers
+6821;6653;sea;3082;-1;-1;-1;-1;;Yampa to Foragers
+6820;6698;sea;3082;-1;-1;-1;-1;;Yampa to Foragers
+6819;6707;sea;3082;-1;-1;-1;-1;;Yampa to Foragers
+2205;6515;sea;3077;-1;-1;-1;-1;;Yampa to Canyon
+3088;6515;sea;3077;-1;-1;-1;-1;;Yampa to Canyon
+6833;6942;sea;6061;-1;-1;-1;-1;;Yampa to Hangdogs
+8135;7471;sea;3081;-1;-1;-1;-1;;White Legs to White Legs
+6776;1571;sea;5966;-1;-1;-1;-1;;Legion to Hangdogs
+1574;1571;sea;5966;-1;-1;-1;-1;;Legion to Hangdogs
+1574;1572;sea;5966;-1;-1;-1;-1;;Legion to Hangdogs
+6777;1572;sea;5966;-1;-1;-1;-1;;Legion to Hangdogs
+5284;1789;sea;5965;-1;-1;-1;-1;;Legion to Hangdogs
+5570;1789;sea;5965;-1;-1;-1;-1;;Legion to Hangdogs
+5570;2251;sea;5965;-1;-1;-1;-1;;Legion to Hangdogs
+2249;2251;sea;5965;-1;-1;-1;-1;;Legion to Hangdogs
+7876;1789;sea;5965;-1;-1;-1;-1;;Legion to Hangdogs
+5285;1789;sea;5965;-1;-1;-1;-1;;Legion to Hangdogs
+6755;6679;sea;5967;-1;-1;-1;-1;;Legion to Foragers
+6776;6677;sea;5966;-1;-1;-1;-1;;Legion to Foragers
+5590;5586;sea;5852;-1;-1;-1;-1;;Legion to Navajo Nation
+3225;8846;impassable;-1;-1;-1;-1;-1;;Vegas to Sky Reavers
+3225;8848;impassable;-1;-1;-1;-1;-1;;Vegas to Sky Reavers
+3225;8851;impassable;-1;-1;-1;-1;-1;;Vegas to Sky Reavers
+8850;8851;impassable;-1;-1;-1;-1;-1;;Vegas to Sky Reavers
+8850;8852;impassable;-1;-1;-1;-1;-1;;Vegas to Sky Reavers
+8853;8852;impassable;-1;-1;-1;-1;-1;;Vegas to Sky Reavers
+8853;8857;impassable;-1;-1;-1;-1;-1;;Vegas to Sky Reavers
+8856;8857;impassable;-1;-1;-1;-1;-1;;Vegas to Sky Reavers
+3232;8857;impassable;-1;-1;-1;-1;-1;;Great Khans to Sky Reavers
+3232;8858;impassable;-1;-1;-1;-1;-1;;Great Khans to Sky Reavers
+6402;6522;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6402;6521;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6401;6521;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6401;6518;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6404;6518;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6404;6520;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6405;6349;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6405;6520;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6405;1608;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6408;6349;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6408;6348;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6406;6348;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6407;6348;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6407;6350;impassable;-1;-1;-1;-1;-1;;Clitton to High Chapel
+6314;2681;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+6314;3484;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+6315;3484;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+6315;2680;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+6315;3371;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+4426;3371;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+4426;2682;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+6318;3370;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+8908;3370;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+8908;3564;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+8907;3564;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+8906;3339;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+8906;3340;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+3524;3340;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+3523;3340;impassable;-1;-1;-1;-1;-1;;Ruby Valley to 80s
+3521;3353;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Riperult
+3525;3353;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Riperult
+3525;8462;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Riperult
+3327;8462;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Riperult
+3327;8463;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Riperult
+4424;8463;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Riperult
+4424;1642;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Riperult
+6311;1642;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Riperult
+6311;3498;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Riperult
+6313;3502;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Riperult
+6313;3529;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Pale Folk
+6314;3529;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Pale Folk
+6313;3529;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Pale Folk
+9767;9780;sea;-1;-1;-1;-1;-1;;Battleford to North Battleford
+9683;9684;sea;-1;-1;-1;-1;-1;;West Calgar to East Calgar
+9673;9674;sea;-1;-1;-1;-1;-1;;West Calgar to East Calgar
+9771;9762;sea;-1;-1;-1;-1;-1;;West Skatoon to East Skatoon
+9760;9759;sea;-1;-1;-1;-1;-1;;West Skatoon to East Skatoon
+9653;2227;sea;-1;-1;-1;-1;-1;;Redder
+9686;9682;sea;-1;-1;-1;-1;-1;;Saskatchewan Highway No. 42
+9802;9797;sea;-1;-1;-1;-1;-1;;Prince Albert
+9802;8640;sea;-1;-1;-1;-1;-1;;Prince Albert
+-1;-1;;-1;-1;-1;-1;-1;-1

@@ -1,0 +1,29 @@
+
+state={
+	id=801
+	name="STATE_CRANBROOK"
+	provinces={
+		2228 2642 8511 8512
+	}
+	history={
+			victory_points = {
+				2228 10
+			}
+			owner = CBK
+			add_core_of = CBK
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				arms_factory = 1
+			}
+	}
+	resources = {
+		water = 10
+		metal = 10
+		electricity = 10
+		fuel = 5
+	}
+	state_category=town
+	manpower=4500
+	buildings_max_level_factor=1.000
+}

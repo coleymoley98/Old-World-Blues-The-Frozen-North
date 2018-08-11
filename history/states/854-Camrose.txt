@@ -1,0 +1,11 @@
+
+state={
+	id=854
+	name="STATE_CAMROSE"
+	provinces={
+		691 9778 9779 9783 9791 9803 
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

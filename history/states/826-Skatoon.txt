@@ -1,0 +1,29 @@
+
+state={
+	id=826
+	name="STATE_SKATOON"
+	provinces={
+		9749 9751 9758 9759 9760 9762 9766 9771 9776
+	}
+	history={
+		owner = USK
+		add_core_of = USK
+		victory_points = {
+			9759 15
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 5
+		}
+	}
+	resources = {
+	water = 15
+	metal = 25
+	electricity = 20
+	fuel = 20
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=838
+	name="STATE_ROSETOWN"
+	provinces={
+		433 8641 9728 9731 9744 9745
+	}
+	history={
+		owner = USK
+		add_core_of = USK
+		victory_points = {
+			8641 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=2500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

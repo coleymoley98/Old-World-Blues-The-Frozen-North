@@ -1,0 +1,69 @@
+﻿division_template = {
+	name = "Infantry"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Militia"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+units = {
+	division {
+		name = "1. Infantry"
+		location = 7368
+		division_template = "Infantry"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}
+units = {
+	division {
+		name = "2. Infantry"
+		location = 7368
+		division_template = "Infantry"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}
+units = {
+	division {
+		name = "3. Infantry"
+		location = 2350
+		division_template = "Infantry"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}
+units = {
+	division {
+		name = "4. Infantry"
+		location = 2350
+		division_template = "Infantry"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "STO"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

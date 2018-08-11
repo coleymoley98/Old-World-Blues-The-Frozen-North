@@ -1,0 +1,16 @@
+﻿l_english:
+ KT_COLUMBIA:0 "Kootenay Territories"
+ RM_ALBERTA:0 "Canadian Rockies"
+ S_ALBERTA:0 "South Alberta"
+ C_ALBERTA:0  "Central Alberta"
+ ALBERTA_RIVER_BR:0 "Bow River"
+ ALBERTA_RIVER_RD:0 "Red Deer River"
+ N_ALBERTA:0 "North Alberta"
+ S_SASKATCHEWAN:0 "South Saskatchewan"
+ N_SASKATCHEWAN:0 "North Saskatchewan"
+ C_SASKATCHEWAN:0 "Central Saskatchewan"
+ W_SASKATCHEWAN:0 "West Saskatchewan"
+ SASKRIVER_S:0 "South Saskatchewan River"
+ SASKRIVER_N:0 "North Saskatchewan River"
+ #supply_area
+ SUPPLYAREA_OKANAGAN:0 "Okanagan Valley"

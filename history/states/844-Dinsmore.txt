@@ -1,0 +1,11 @@
+
+state={
+	id=844
+	name="STATE_DINSMORE"
+	provinces={
+		8642 9679 9682 9706 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

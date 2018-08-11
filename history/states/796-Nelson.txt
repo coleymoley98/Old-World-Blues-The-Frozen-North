@@ -1,0 +1,24 @@
+
+state={
+	id=796
+	name="STATE_NELSON"
+
+	history={
+		owner = CBK
+		add_core_of = CBK
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			3944 5
+		}
+
+	}
+
+	provinces={
+		681 2126 2488 2643 3943 3944 3945 8504 8505 8506 8508 8509 8510
+	}
+	manpower=3500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

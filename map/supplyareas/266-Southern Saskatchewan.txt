@@ -1,0 +1,9 @@
+
+supply_area={
+	id=266
+	name="SUPPLYAREA_S_SASK"
+	value=0
+	states={
+		840 841 845 860 861 862 863 864 866
+	}
+}

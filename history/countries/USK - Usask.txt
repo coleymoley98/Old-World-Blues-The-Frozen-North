@@ -1,0 +1,49 @@
+﻿capital = 2645
+
+oob = "USK_2275"
+set_country_flag = is_settler_nation
+
+set_technology = {
+	standard_weaponry_tech = 1
+	blunt_weaponry = 1
+	tribal_civilization = 1
+	settled_civilization = 1
+	scientific_civilization = 1
+	destroyer_tech = 1
+	destroyer_tech_2 = 1
+	cruiser_tech = 1
+	heavy_cruiser_tech = 1
+	basic_laser_weaponry = 1
+	improved_laser_weaponry  = 1
+	power_armour = 1
+}
+
+set_stability = 0.65
+set_war_support = 0.25
+set_convoys = 100
+set_research_slots = 5
+set_politics = {
+	parties = {
+		people = { popularity = 6 }
+		elites = { popularity = 3 }
+		intellectuals = { popularity = 91 }
+		ruler = { popularity = 0 }
+	}
+	ruling_party = intellectuals
+	elections_allowed = no
+}
+
+add_ideas = {
+	neutrality_owb
+}
+
+create_country_leader  = {
+	name = "Eddie"
+	desc = "Eddie_DESC"
+	picture = "Portrait_Eddie.dds"
+	expire = "3000.1.1"
+	ideology = technocracy
+
+	traits = {
+	}
+}

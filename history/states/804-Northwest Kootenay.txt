@@ -1,0 +1,20 @@
+state={
+	id=804
+	name="STATE_NWKOOT"
+	provinces={
+		687 2224 7223 7224 7339
+	}
+	history = {
+	owner = STO
+	add_core_of = STO
+	buildings = {
+		infrastructure = 2
+		}
+		victory_points = {
+			687 5
+		}
+	}
+	manpower=500
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+}

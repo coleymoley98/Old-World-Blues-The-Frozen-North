@@ -1,0 +1,28 @@
+state={
+	id=865
+	name="STATE_LETHBRIDGE"
+	provinces={
+		9844 9845 9846
+	}
+	history={
+		owner = CGY
+		add_core_of = CGY
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			9685 10
+		}
+	}
+	resources = {
+	water = 10
+	metal = 10
+	electricity = 10
+	fuel = 5
+	}
+	manpower=4500
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,148 @@
+division_template = {
+	name = "Calgar Infantry"
+	division_names_group = CGY_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		recon_company = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Calgar Recon"
+	division_names_group = CGY_INF_02
+	regiments = {
+		spec_ops = { x = 0 y = 0 }
+		spec_ops = { x = 0 y = 1 }
+		spec_ops = { x = 1 y = 0 }
+		spec_ops = { x = 1 y = 1 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		anti_tank_company = { x = 0 y = 1 }
+		recon_company = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Calgar Mobile"
+	division_names_group = CGY_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+   	motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Republican Guard"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	division {
+		name = "1st Infantry Team"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+			}
+		location = 9683 # Calgary
+		division_template = "Calgar Infantry"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division {
+		name = "2nd Infantry Team"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+			}
+		location = 9683
+		division_template = "Calgar Infantry"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division {
+			name = "3rd Mobile Team"
+			division_name = {    # New syntax for compatibility with name lists
+				is_name_ordered = yes
+				name_order = 3
+				}
+			location = 9683
+			division_template = "Calgar Mobile"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+		division {
+			name = "4th Infantry Team"
+			division_name = {    # New syntax for compatibility with name lists
+				is_name_ordered = yes
+				name_order = 4
+				}
+			location = 9844 # Lethbridge
+			division_template = "Calgar Infantry"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+		division {
+			name = "5th Infantry Team"
+			division_name = {    # New syntax for compatibility with name lists
+				is_name_ordered = yes
+				name_order = 5
+				}
+			location = 9844
+			division_template = "Calgar Infantry"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+		division {
+			name = "6th Infantry Team"
+			division_name = {    # New syntax for compatibility with name lists
+				is_name_ordered = yes
+				name_order = 6
+				}
+			location = 9710 # Banff
+			division_template = "Calgar Infantry"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+		division {
+			name = "1st 'Cowboys' Recon Team"
+			division_name = {    # New syntax for compatibility with name lists
+				is_name_ordered = yes
+				name_order = 1
+				}
+			location = 9716 # Banff
+			division_template = "Calgar Recon"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+		}
+}
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CGY"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

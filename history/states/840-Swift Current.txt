@@ -1,0 +1,21 @@
+
+state={
+	id=840
+	name="STATE_SWIFT_CURRENT"
+	provinces={
+		9829 9830 9833 9834 9835 9837 9838 9841
+	}
+	history={
+		owner = SWC
+		add_core_of = SWC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9835 10
+		}
+	}
+	manpower=4500
+	buildings_max_level_factor=1.000
+	state_category=city
+}

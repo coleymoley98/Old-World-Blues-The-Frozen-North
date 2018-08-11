@@ -1,0 +1,11 @@
+
+state={
+	id=828
+	name="STATE_BATTLEFORD"
+	provinces={
+		9750 9756 9767 9782 
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,20 @@
+state={
+	id=864
+	name="STATE_VAL_MARIE"
+	provinces={
+		9822 9823 9825
+	}
+	history={
+		owner = SWC
+		add_core_of = SWC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9823 5
+		}
+	}
+	manpower=1000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=819
+	name="STATE_MEDHAT"
+	provinces={
+		2516 9649 9652 9653 9847 9848 9849
+	}
+	history={
+		owner = MDH
+		add_core_of = MDH
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9653 10
+		}
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

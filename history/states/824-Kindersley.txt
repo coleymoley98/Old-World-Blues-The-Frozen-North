@@ -1,0 +1,11 @@
+
+state={
+	id=824
+	name="STATE_KINDERSLEY"
+	provinces={
+		2552 9713 9730 9732 9736 9741 
+	}
+	manpower=3500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

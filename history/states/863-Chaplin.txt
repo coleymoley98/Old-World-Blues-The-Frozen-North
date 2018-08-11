@@ -1,0 +1,20 @@
+state={
+	id=863
+	name="STATE_CHAPLIN"
+	provinces={
+		9831 9832 9839 9840 9842
+	}
+	history={
+		owner = SWC
+		add_core_of = SWC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9832 5
+		}
+	}
+	manpower=1000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

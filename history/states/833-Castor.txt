@@ -1,0 +1,11 @@
+
+state={
+	id=833
+	name="STATE_CASTOR"
+	provinces={
+		611 2467 9726 9738 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

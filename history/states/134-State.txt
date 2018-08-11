@@ -1,0 +1,34 @@
+
+state={
+	id=134
+	name="Cherryville"
+	resources={
+		electricity=2.000
+	}
+
+	history={
+		owner = KAM
+		add_core_of = KAM
+		victory_points = {
+			3990 5 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+			8486 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2132 3966 3967 4390 7407 8486 8487 
+	}
+	manpower=1500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

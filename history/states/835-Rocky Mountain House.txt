@@ -1,0 +1,21 @@
+
+state={
+	id=835
+	name="STATE_RMH"
+	provinces={
+		630 2221 2468 9740 9747
+	}
+	history={
+		owner = RDR
+		add_core_of = RDR
+		victory_points = {
+			9740 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

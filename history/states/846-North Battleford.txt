@@ -1,0 +1,11 @@
+
+state={
+	id=846
+	name="STATE_NORTH_BATTLEFORD"
+	provinces={
+		8640 9777 9780 9792 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

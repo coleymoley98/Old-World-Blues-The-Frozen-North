@@ -1,0 +1,24 @@
+
+state={
+	id=816
+	name="STATE_AIRDRIE"
+
+	history={
+		owner = CGY
+		add_core_of = CGY
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9711 5
+		}
+	}
+
+	provinces={
+		9702 9711 9718 9721
+	}
+	manpower=2500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

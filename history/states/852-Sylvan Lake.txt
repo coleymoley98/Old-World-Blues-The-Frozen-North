@@ -1,0 +1,21 @@
+
+state={
+	id=852
+	name="STATE_SYLVAN_LAKE"
+	provinces={
+		9748 9757 9763 9764 9768 9774
+	}
+	history={
+		owner = RDR
+		add_core_of = RDR
+		victory_points = {
+			9748 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

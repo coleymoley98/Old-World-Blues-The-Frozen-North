@@ -1,0 +1,11 @@
+
+state={
+	id=859
+	name="STATE_EDSON"
+	provinces={
+		451 2557 8729 9773 9800 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=802
+	name="STATE_FERNIE"
+
+	history={
+		owner = CBK
+		add_core_of = CBK
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2592 5
+		}
+	}
+
+	provinces={
+		634 2489 2548 2592
+	}
+	manpower=1200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

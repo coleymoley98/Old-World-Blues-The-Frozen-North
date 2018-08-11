@@ -1,0 +1,31 @@
+
+state={
+	id=812
+	name="STATE_CALGAR"
+
+	history={
+		owner = CGY
+		add_core_of = CGY
+		victory_points = {
+			9683 15
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+	resources = {
+	water = 15
+	metal = 25
+	electricity = 20
+	fuel = 20
+	}
+
+	provinces={
+		9673 9674 9675 9683 9684 9692 9694
+	}
+	manpower=14000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

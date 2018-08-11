@@ -1,0 +1,11 @@
+
+state={
+	id=856
+	name="STATE_VEGREVILLE"
+	provinces={
+		668 9810 9812 9820 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

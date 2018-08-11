@@ -1,0 +1,75 @@
+
+default_area_priority = {
+	enable = {
+		NOT = {
+			tag = NCR
+			tag = CES
+		}
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = north_california
+		value = 80
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = south_california
+		value = 100
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = arizona_sonora
+		value = 80
+	}
+	ai_strategy = {
+		type = area_priority
+		id = nevada
+		value = 50
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = colorado_newmexico
+		value = 40
+	}
+	ai_strategy = {
+		type = area_priority
+		id = new_vegas
+		value = 60
+	}
+	ai_strategy = {
+		type = area_priority
+		id = oregon
+		value = 10
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = utah
+		value = 10
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = idaho
+		value = 10
+	}
+	ai_strategy = {
+		type = area_priority
+		id = mexico
+		value = 1
+	}
+	ai_strategy = {
+		type = area_priority
+		id = texas
+		value = 1
+	}
+	ai_strategy = {
+		type = area_priority
+		id = out_of_bounds
+		value = 1
+	}
+}

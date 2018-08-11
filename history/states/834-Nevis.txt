@@ -1,0 +1,21 @@
+
+state={
+	id=834
+	name="STATE_NEVIS"
+	provinces={
+		673 2549 9701 9715 9724 9729 9754
+	}
+	history={
+		owner = RDR
+		add_core_of = RDR
+		victory_points = {
+			9720 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

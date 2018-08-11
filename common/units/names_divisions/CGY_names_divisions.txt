@@ -1,0 +1,566 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names.
+#           Numbers must start from 1 and up.
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either:
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+CGY_INF_01 =
+{
+	name = "Infantry Team"
+
+	for_countries = { CGY }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GER_Gar_01 }
+
+	fallback_name = "%d Infantry Team"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Infantry Team" }
+		2 = { "%dnd Infantry Team" }
+		3 = { "%drd Infantry Team" }
+		4 = { "%dth Infantry Team" }
+		5 = { "%dth Infantry Team" }
+		6 = { "%dth Infantry Team" }
+		7 = { "%dth Infantry Team" }
+		8 = { "%dth Infantry Team" }
+		9 = { "%dth Infantry Team" }
+		10 = { "%dth Infantry Team" }
+		11 = { "%dth Infantry Team" }
+		12 = { "%dth Infantry Team" }
+		13 = { "%dth Infantry Team" }
+		14 = { "%dth Infantry Team" }
+		15 = { "%dth Infantry Team" }
+		16 = { "%dth Infantry Team" }
+		17 = { "%dth Infantry Team" }
+		18 = { "%dth Infantry Team" }
+		19 = { "%dth Infantry Team" }
+		20 = { "%dth Infantry Team" }
+		21 = { "%dst Infantry Team" }
+		22 = { "%dnd Infantry Team" }
+		23 = { "%drd Infantry Team" }
+		24 = { "%dth Infantry Team" }
+		25 = { "%dth Infantry Team" }
+		26 = { "%dth Infantry Team" }
+		27 = { "%dth Infantry Team" }
+		28 = { "%dth Infantry Team" }
+		29 = { "%dth Infantry Team" }
+		30 = { "%dth Infantry Team" }
+		31 = { "%dst Infantry Team" }
+		32 = { "%dnd Infantry Team" }
+		33 = { "%drd Infantry Team" }
+		34 = { "%dth Infantry Team" }
+		35 = { "%dth Infantry Team" }
+		36 = { "%dth Infantry Team" }
+		37 = { "%dth Infantry Team" }
+		38 = { "%dth Infantry Team" }
+		39 = { "%dth Infantry Team" }
+		40 = { "%dth Infantry Team" }
+		41 = { "%dst Infantry Team" }
+		42 = { "%dnd Infantry Team" }
+		43 = { "%drd Infantry Team" }
+		44 = { "%dth Infantry Team" }
+		45 = { "%dth Infantry Team" }
+		46 = { "%dth Infantry Team" }
+		47 = { "%dth Infantry Team" }
+		48 = { "%dth Infantry Team" }
+		49 = { "%dth Infantry Team" }
+		50 = { "%dth Infantry Team" }
+		51 = { "%dst Infantry Team" }
+		52 = { "%dnd Infantry Team" }
+		53 = { "%drd Infantry Team" }
+		54 = { "%dth Infantry Team" }
+		55 = { "%dth Infantry Team" }
+		56 = { "%dth Infantry Team" }
+		57 = { "%dth Infantry Team" }
+		58 = { "%dth Infantry Team" }
+		59 = { "%dth Infantry Team" }
+		60 = { "%dth Infantry Team" }
+		61 = { "%dst Infantry Team" }
+		62 = { "%dnd Infantry Team" }
+		63 = { "%drd Infantry Team" }
+		64 = { "%dth Infantry Team" }
+		65 = { "%dth Infantry Team" }
+		66 = { "%dth Infantry Team" }
+		67 = { "%dth Infantry Team" }
+		68 = { "%dth Infantry Team" }
+		69 = { "%dth Infantry Team" }
+		70 = { "%dth Infantry Team" }
+		71 = { "%dst Infantry Team" }
+		72 = { "%dnd Infantry Team" }
+		73 = { "%drd Infantry Team" }
+		74 = { "%dth Infantry Team" }
+		75 = { "%dth Infantry Team" }
+		76 = { "%dth Infantry Team" }
+		77 = { "%dth Infantry Team" }
+		78 = { "%dth Infantry Team" }
+		79 = { "%dth Infantry Team" }
+		80 = { "%dth Infantry Team" }
+		81 = { "%dst Infantry Team" }
+		82 = { "%dnd Infantry Team" }
+		83 = { "%drd Infantry Team" }
+		84 = { "%dth Infantry Team" }
+		85 = { "%dth Infantry Team" }
+		86 = { "%dth Infantry Team" }
+		87 = { "%dth Infantry Team" }
+		88 = { "%dth Infantry Team" }
+		89 = { "%dth Infantry Team" }
+		90 = { "%dth Infantry Team" }
+		91 = { "%dst Infantry Team" }
+		92 = { "%dnd Infantry Team" }
+		93 = { "%drd Infantry Team" }
+		94 = { "%dth Infantry Team" }
+		95 = { "%dth Infantry Team" }
+		96 = { "%dth Infantry Team" }
+		97 = { "%dth Infantry Team" }
+		98 = { "%dth Infantry Team" }
+		99 = { "%dth Infantry Team" }
+		100 = { "%dth Infantry Team" }
+		101 = { "%dst Infantry Team" }
+
+		# CAN in HoI3 had 100 Inf divs in its list, so HoI4 can have 101!
+	}
+}
+CGY_INF_02 =
+{
+	name = "Infantry Team"
+
+	for_countries = { CGY }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GER_Gar_01 }
+
+	fallback_name = "%d Recon Team" # Nicknames from Pre-War Hockey Teams
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst 'Cowboys' Recon Team" } # Calgary Cowboys (Canadian Division, West)
+		2 = { "%dnd 'Canadiens' Recon Team" } # Montreal Canadiens (Canadian Division, East)
+		3 = { "%drd 'Senators' Recon Team" } # Ottawa Senators (Canadian Division, East)
+		4 = { "%dth 'Maple Leafs' Recon Team" } # Toronto Maple Leafs (Canadian Division, East)
+		5 = { "%dth 'Canucks' Recon Team" } # Vancouver Canucks (Canadian Division, West)
+		6 = { "%dth 'Oilers' Recon Team" } # Edmonton Oilers (Canadian Division, West)
+		7 = { "%dth 'Nordiques' Recon Team" } # Quebec Nordiques (Canadian Division, West)
+		8 = { "%dth 'Jets' Recon Team" } # Winnipeg Jets (Canadian Division, West)
+		9 = { "%dth 'Blades' Recon Team" } # Saskatchewan Blades (Canadian Division, West)
+		10 = { "%dth 'Tigers' Recon Team" } # Hamilton Tigers (Canadian Division, East)
+		11 = { "%dth 'Bruins' Recon Team" } # Boston Bruins (American Division, East)
+		12 = { "%dth 'Red Wings' Recon Team" } # Detroit Red Wings (American Division, West)
+		13 = { "%dth 'Rangers' Recon Team" } # New York Rangers (American Division, East)
+		14 = { "%dth 'Blackhawks' Recon Team" } # Chicago Blackhawks (American Division, West)
+		15 = { "%dth 'Blues' Recon Team" } # Saint Louis Blues (American Division, West)
+		16 = { "%dth 'Quakers' Recon Team" } # Philadelphia Quakers (American Division, East)
+		17 = { "%dth 'Emeralds' Recon Team" } # Seattle Emeralds (American Division, West)
+		18 = { "%dth 'Devils' Recon Team" } # New Jersey Devils (American Division, East)
+		19 = { "%dth 'Capitals' Recon Team" } # Washington Capitals (American Division, East)
+		20 = { "%dth 'Kings' Recon Team" } # Los Angeles Kings (American Division, West)
+	}
+}
+CGY_MOT_01 =
+{
+	name = "Mobile Team"
+
+	for_countries = { CGY }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { CGY_INF_01 }
+
+	fallback_name = "%. Mobile Team"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Mobile Team" }
+		2 = { "%dnd Mobile Team" }
+		3 = { "%drd Mobile Team" }
+		4 = { "%dth Mobile Team" }
+		5 = { "%dth Mobile Team" }
+		6 = { "%dth Mobile Team" }
+		7 = { "%dth Mobile Team" }
+		8 = { "%dth Mobile Team" }
+		9 = { "%dth Mobile Team" }
+		10 = { "%dth Mobile Team" }
+		11 = { "%dth Mobile Team" }
+		12 = { "%dth Mobile Team" }
+		13 = { "%dth Mobile Team" }
+		14 = { "%dth Mobile Team" }
+		15 = { "%dth Mobile Team" }
+		16 = { "%dth Mobile Team" }
+		17 = { "%dth Mobile Team" }
+		18 = { "%dth Mobile Team" }
+		19 = { "%dth Mobile Team" }
+		20 = { "%dth Mobile Team" }
+		21 = { "%dst Mobile Team" }
+		22 = { "%dnd Mobile Team" }
+		23 = { "%drd Mobile Team" }
+		24 = { "%dth Mobile Team" }
+		25 = { "%dth Mobile Team" }
+		26 = { "%dth Mobile Team" }
+		27 = { "%dth Mobile Team" }
+		28 = { "%dth Mobile Team" }
+		29 = { "%dth Mobile Team" }
+		30 = { "%dth Mobile Team" }
+		31 = { "%dst Mobile Team" }
+		32 = { "%dnd Mobile Team" }
+		33 = { "%drd Mobile Team" }
+		34 = { "%dth Mobile Team" }
+		35 = { "%dth Mobile Team" }
+		36 = { "%dth Mobile Team" }
+		37 = { "%dth Mobile Team" }
+		38 = { "%dth Mobile Team" }
+		39 = { "%dth Mobile Team" }
+		40 = { "%dth Mobile Team" }
+		41 = { "%dst Mobile Team" }
+		42 = { "%dnd Mobile Team" }
+		43 = { "%drd Mobile Team" }
+		44 = { "%dth Mobile Team" }
+		45 = { "%dth Mobile Team" }
+		46 = { "%dth Mobile Team" }
+		47 = { "%dth Mobile Team" }
+		48 = { "%dth Mobile Team" }
+		49 = { "%dth Mobile Team" }
+		50 = { "%dth Mobile Team" }
+		51 = { "%dst Mobile Team" }
+		52 = { "%dnd Mobile Team" }
+		53 = { "%drd Mobile Team" }
+		54 = { "%dth Mobile Team" }
+		55 = { "%dth Mobile Team" }
+		56 = { "%dth Mobile Team" }
+		57 = { "%dth Mobile Team" }
+		58 = { "%dth Mobile Team" }
+		59 = { "%dth Mobile Team" }
+		60 = { "%dth Mobile Team" }
+		61 = { "%dst Mobile Team" }
+		62 = { "%dnd Mobile Team" }
+		63 = { "%drd Mobile Team" }
+		64 = { "%dth Mobile Team" }
+		65 = { "%dth Mobile Team" }
+		66 = { "%dth Mobile Team" }
+		67 = { "%dth Mobile Team" }
+		68 = { "%dth Mobile Team" }
+		69 = { "%dth Mobile Team" }
+		70 = { "%dth Mobile Team" }
+		71 = { "%dst Mobile Team" }
+		72 = { "%dnd Mobile Team" }
+		73 = { "%drd Mobile Team" }
+		74 = { "%dth Mobile Team" }
+		75 = { "%dth Mobile Team" }
+		76 = { "%dth Mobile Team" }
+		77 = { "%dth Mobile Team" }
+		78 = { "%dth Mobile Team" }
+		79 = { "%dth Mobile Team" }
+		80 = { "%dth Mobile Team" }
+		81 = { "%dst Mobile Team" }
+		82 = { "%dnd Mobile Team" }
+		83 = { "%drd Mobile Team" }
+		84 = { "%dth Mobile Team" }
+		85 = { "%dth Mobile Team" }
+		86 = { "%dth Mobile Team" }
+		87 = { "%dth Mobile Team" }
+		88 = { "%dth Mobile Team" }
+		89 = { "%dth Mobile Team" }
+		90 = { "%dth Mobile Team" }
+		91 = { "%dst Mobile Team" }
+		92 = { "%dnd Mobile Team" }
+		93 = { "%drd Mobile Team" }
+		94 = { "%dth Mobile Team" }
+		95 = { "%dth Mobile Team" }
+		96 = { "%dth Mobile Team" }
+		97 = { "%dth Mobile Team" }
+		98 = { "%dth Mobile Team" }
+		99 = { "%dth Mobile Team" }
+		100 = { "%dth Mobile Team" }
+		101 = { "%dst Mobile Team" }
+	}
+}
+
+CGY_GAR_01 =
+{
+	name = "Republican Guard Team"
+
+	for_countries = { CGY }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	# link_numbering_with = { CGY_INF_01 }
+
+	fallback_name = "%. Republican Guard Team"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Republican Guard Team" }
+		2 = { "%dnd Republican Guard Team" }
+		3 = { "%drd Republican Guard Team" }
+		4 = { "%dth Republican Guard Team" }
+		5 = { "%dth Republican Guard Team" }
+		6 = { "%dth Republican Guard Team" }
+		7 = { "%dth Republican Guard Team" }
+		8 = { "%dth Republican Guard Team" }
+		9 = { "%dth Republican Guard Team" }
+		10 = { "%dth Republican Guard Team" }
+		11 = { "%dth Republican Guard Team" }
+		12 = { "%dth Republican Guard Team" }
+		13 = { "%dth Republican Guard Team" }
+		14 = { "%dth Republican Guard Team" }
+		15 = { "%dth Republican Guard Team" }
+		16 = { "%dth Republican Guard Team" }
+		17 = { "%dth Republican Guard Team" }
+		18 = { "%dth Republican Guard Team" }
+		19 = { "%dth Republican Guard Team" }
+		20 = { "%dth Republican Guard Team" }
+		21 = { "%dst Republican Guard Team" }
+		22 = { "%dnd Republican Guard Team" }
+		23 = { "%drd Republican Guard Team" }
+		24 = { "%dth Republican Guard Team" }
+		25 = { "%dth Republican Guard Team" }
+		26 = { "%dth Republican Guard Team" }
+		27 = { "%dth Republican Guard Team" }
+		28 = { "%dth Republican Guard Team" }
+		29 = { "%dth Republican Guard Team" }
+		30 = { "%dth Republican Guard Team" }
+		31 = { "%dst Republican Guard Team" }
+		32 = { "%dnd Republican Guard Team" }
+		33 = { "%drd Republican Guard Team" }
+		34 = { "%dth Republican Guard Team" }
+		35 = { "%dth Republican Guard Team" }
+		36 = { "%dth Republican Guard Team" }
+		37 = { "%dth Republican Guard Team" }
+		38 = { "%dth Republican Guard Team" }
+		39 = { "%dth Republican Guard Team" }
+		40 = { "%dth Republican Guard Team" }
+		41 = { "%dst Republican Guard Team" }
+		42 = { "%dnd Republican Guard Team" }
+		43 = { "%drd Republican Guard Team" }
+		44 = { "%dth Republican Guard Team" }
+		45 = { "%dth Republican Guard Team" }
+		46 = { "%dth Republican Guard Team" }
+		47 = { "%dth Republican Guard Team" }
+		48 = { "%dth Republican Guard Team" }
+		49 = { "%dth Republican Guard Team" }
+		50 = { "%dth Republican Guard Team" }
+		51 = { "%dst Republican Guard Team" }
+		52 = { "%dnd Republican Guard Team" }
+		53 = { "%drd Republican Guard Team" }
+		54 = { "%dth Republican Guard Team" }
+		55 = { "%dth Republican Guard Team" }
+		56 = { "%dth Republican Guard Team" }
+		57 = { "%dth Republican Guard Team" }
+		58 = { "%dth Republican Guard Team" }
+		59 = { "%dth Republican Guard Team" }
+		60 = { "%dth Republican Guard Team" }
+		61 = { "%dst Republican Guard Team" }
+		62 = { "%dnd Republican Guard Team" }
+		63 = { "%drd Republican Guard Team" }
+		64 = { "%dth Republican Guard Team" }
+		65 = { "%dth Republican Guard Team" }
+		66 = { "%dth Republican Guard Team" }
+		67 = { "%dth Republican Guard Team" }
+		68 = { "%dth Republican Guard Team" }
+		69 = { "%dth Republican Guard Team" }
+		70 = { "%dth Republican Guard Team" }
+		71 = { "%dst Republican Guard Team" }
+		72 = { "%dnd Republican Guard Team" }
+		73 = { "%drd Republican Guard Team" }
+		74 = { "%dth Republican Guard Team" }
+		75 = { "%dth Republican Guard Team" }
+		76 = { "%dth Republican Guard Team" }
+		77 = { "%dth Republican Guard Team" }
+		78 = { "%dth Republican Guard Team" }
+		79 = { "%dth Republican Guard Team" }
+		80 = { "%dth Republican Guard Team" }
+		81 = { "%dst Republican Guard Team" }
+		82 = { "%dnd Republican Guard Team" }
+		83 = { "%drd Republican Guard Team" }
+		84 = { "%dth Republican Guard Team" }
+		85 = { "%dth Republican Guard Team" }
+		86 = { "%dth Republican Guard Team" }
+		87 = { "%dth Republican Guard Team" }
+		88 = { "%dth Republican Guard Team" }
+		89 = { "%dth Republican Guard Team" }
+		90 = { "%dth Republican Guard Team" }
+		91 = { "%dst Republican Guard Team" }
+		92 = { "%dnd Republican Guard Team" }
+		93 = { "%drd Republican Guard Team" }
+		94 = { "%dth Republican Guard Team" }
+		95 = { "%dth Republican Guard Team" }
+		96 = { "%dth Republican Guard Team" }
+		97 = { "%dth Republican Guard Team" }
+		98 = { "%dth Republican Guard Team" }
+		99 = { "%dth Republican Guard Team" }
+		100 = { "%dth Republican Guard Team" }
+		101 = { "%dst Republican Guard Team" }
+	}
+}
+
+CGY_GAR_02 =
+{
+	name = "Republican Guard (Mob.) Team"
+
+	for_countries = { CGY }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { CGY_GAR_01 }
+
+	fallback_name = "%. Republican Guard (Mob.) Team"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Republican Guard (Mob.) Team" }
+		2 = { "%dnd Republican Guard (Mob.) Team" }
+		3 = { "%drd Republican Guard (Mob.) Team" }
+		4 = { "%dth Republican Guard (Mob.) Team" }
+		5 = { "%dth Republican Guard (Mob.) Team" }
+		6 = { "%dth Republican Guard (Mob.) Team" }
+		7 = { "%dth Republican Guard (Mob.) Team" }
+		8 = { "%dth Republican Guard (Mob.) Team" }
+		9 = { "%dth Republican Guard (Mob.) Team" }
+		10 = { "%dth Republican Guard (Mob.) Team" }
+		11 = { "%dth Republican Guard (Mob.) Team" }
+		12 = { "%dth Republican Guard (Mob.) Team" }
+		13 = { "%dth Republican Guard (Mob.) Team" }
+		14 = { "%dth Republican Guard (Mob.) Team" }
+		15 = { "%dth Republican Guard (Mob.) Team" }
+		16 = { "%dth Republican Guard (Mob.) Team" }
+		17 = { "%dth Republican Guard (Mob.) Team" }
+		18 = { "%dth Republican Guard (Mob.) Team" }
+		19 = { "%dth Republican Guard (Mob.) Team" }
+		20 = { "%dth Republican Guard (Mob.) Team" }
+		21 = { "%dst Republican Guard (Mob.) Team" }
+		22 = { "%dnd Republican Guard (Mob.) Team" }
+		23 = { "%drd Republican Guard (Mob.) Team" }
+		24 = { "%dth Republican Guard (Mob.) Team" }
+		25 = { "%dth Republican Guard (Mob.) Team" }
+		26 = { "%dth Republican Guard (Mob.) Team" }
+		27 = { "%dth Republican Guard (Mob.) Team" }
+		28 = { "%dth Republican Guard (Mob.) Team" }
+		29 = { "%dth Republican Guard (Mob.) Team" }
+		30 = { "%dth Republican Guard (Mob.) Team" }
+		31 = { "%dst Republican Guard (Mob.) Team" }
+		32 = { "%dnd Republican Guard (Mob.) Team" }
+		33 = { "%drd Republican Guard (Mob.) Team" }
+		34 = { "%dth Republican Guard (Mob.) Team" }
+		35 = { "%dth Republican Guard (Mob.) Team" }
+		36 = { "%dth Republican Guard (Mob.) Team" }
+		37 = { "%dth Republican Guard (Mob.) Team" }
+		38 = { "%dth Republican Guard (Mob.) Team" }
+		39 = { "%dth Republican Guard (Mob.) Team" }
+		40 = { "%dth Republican Guard (Mob.) Team" }
+		41 = { "%dst Republican Guard (Mob.) Team" }
+		42 = { "%dnd Republican Guard (Mob.) Team" }
+		43 = { "%drd Republican Guard (Mob.) Team" }
+		44 = { "%dth Republican Guard (Mob.) Team" }
+		45 = { "%dth Republican Guard (Mob.) Team" }
+		46 = { "%dth Republican Guard (Mob.) Team" }
+		47 = { "%dth Republican Guard (Mob.) Team" }
+		48 = { "%dth Republican Guard (Mob.) Team" }
+		49 = { "%dth Republican Guard (Mob.) Team" }
+		50 = { "%dth Republican Guard (Mob.) Team" }
+		51 = { "%dst Republican Guard (Mob.) Team" }
+		52 = { "%dnd Republican Guard (Mob.) Team" }
+		53 = { "%drd Republican Guard (Mob.) Team" }
+		54 = { "%dth Republican Guard (Mob.) Team" }
+		55 = { "%dth Republican Guard (Mob.) Team" }
+		56 = { "%dth Republican Guard (Mob.) Team" }
+		57 = { "%dth Republican Guard (Mob.) Team" }
+		58 = { "%dth Republican Guard (Mob.) Team" }
+		59 = { "%dth Republican Guard (Mob.) Team" }
+		60 = { "%dth Republican Guard (Mob.) Team" }
+		61 = { "%dst Republican Guard (Mob.) Team" }
+		62 = { "%dnd Republican Guard (Mob.) Team" }
+		63 = { "%drd Republican Guard (Mob.) Team" }
+		64 = { "%dth Republican Guard (Mob.) Team" }
+		65 = { "%dth Republican Guard (Mob.) Team" }
+		66 = { "%dth Republican Guard (Mob.) Team" }
+		67 = { "%dth Republican Guard (Mob.) Team" }
+		68 = { "%dth Republican Guard (Mob.) Team" }
+		69 = { "%dth Republican Guard (Mob.) Team" }
+		70 = { "%dth Republican Guard (Mob.) Team" }
+		71 = { "%dst Republican Guard (Mob.) Team" }
+		72 = { "%dnd Republican Guard (Mob.) Team" }
+		73 = { "%drd Republican Guard (Mob.) Team" }
+		74 = { "%dth Republican Guard (Mob.) Team" }
+		75 = { "%dth Republican Guard (Mob.) Team" }
+		76 = { "%dth Republican Guard (Mob.) Team" }
+		77 = { "%dth Republican Guard (Mob.) Team" }
+		78 = { "%dth Republican Guard (Mob.) Team" }
+		79 = { "%dth Republican Guard (Mob.) Team" }
+		80 = { "%dth Republican Guard (Mob.) Team" }
+		81 = { "%dst Republican Guard (Mob.) Team" }
+		82 = { "%dnd Republican Guard (Mob.) Team" }
+		83 = { "%drd Republican Guard (Mob.) Team" }
+		84 = { "%dth Republican Guard (Mob.) Team" }
+		85 = { "%dth Republican Guard (Mob.) Team" }
+		86 = { "%dth Republican Guard (Mob.) Team" }
+		87 = { "%dth Republican Guard (Mob.) Team" }
+		88 = { "%dth Republican Guard (Mob.) Team" }
+		89 = { "%dth Republican Guard (Mob.) Team" }
+		90 = { "%dth Republican Guard (Mob.) Team" }
+		91 = { "%dst Republican Guard (Mob.) Team" }
+		92 = { "%dnd Republican Guard (Mob.) Team" }
+		93 = { "%drd Republican Guard (Mob.) Team" }
+		94 = { "%dth Republican Guard (Mob.) Team" }
+		95 = { "%dth Republican Guard (Mob.) Team" }
+		96 = { "%dth Republican Guard (Mob.) Team" }
+		97 = { "%dth Republican Guard (Mob.) Team" }
+		98 = { "%dth Republican Guard (Mob.) Team" }
+		99 = { "%dth Republican Guard (Mob.) Team" }
+		100 = { "%dth Republican Guard (Mob.) Team" }
+		101 = { "%dst Republican Guard (Mob.) Team" }
+	}
+}

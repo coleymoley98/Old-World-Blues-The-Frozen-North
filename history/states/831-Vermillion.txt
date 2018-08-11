@@ -1,0 +1,11 @@
+
+state={
+	id=831
+	name="STATE_VERMILLION"
+	provinces={
+		1 9742 9775 9788 9801 9804 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

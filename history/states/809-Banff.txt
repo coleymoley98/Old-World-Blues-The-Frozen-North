@@ -1,0 +1,25 @@
+
+state={
+	id=809
+	name="STATE_BANFF"
+
+	history={
+		owner = CGY
+		add_core_of = CGY
+		victory_points = {
+			9714 4 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		9681 9691 9710 9714 
+	}
+	manpower=4500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

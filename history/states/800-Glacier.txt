@@ -1,0 +1,20 @@
+state={
+	id=800
+	name="STATE_GLALCIER"
+	provinces={
+		2147 2149 2520 2644
+	}
+	history = {
+	owner = STO
+	add_core_of = STO
+	buildings = {
+		infrastructure = 2
+		}
+		victory_points = {
+			2147 5
+		}
+	}
+	manpower=1400
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

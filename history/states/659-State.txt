@@ -1,0 +1,11 @@
+
+state={
+	id=659
+	name="STATE_659"
+	provinces={
+		656 2011 2014 2209 2210 2211 2212 2225 2226 2362 2363 2461 2462 2463 2464 2491 2586 2587 8733 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
