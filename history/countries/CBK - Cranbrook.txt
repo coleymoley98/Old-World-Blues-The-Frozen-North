@@ -1,4 +1,4 @@
-﻿capital = 2645
+﻿capital = 801
 
 oob = "CBK_2275"
 set_country_flag = is_raider_nation

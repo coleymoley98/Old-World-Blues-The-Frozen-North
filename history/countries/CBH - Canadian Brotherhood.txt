@@ -1,4 +1,4 @@
-﻿capital = 9722
+﻿capital = 822
 set_country_flag = is_brotherhood_nation
 
 set_technology = {

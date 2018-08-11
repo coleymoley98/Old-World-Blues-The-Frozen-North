@@ -1,0 +1,16 @@
+﻿l_english:
+#FROZENNORTH
+
+#CGY
+ #CGY
+ CGY_ballistic_equipment_3: "Ross & Co. C48 Husky Sniper Rifle."
+ CGY_ballistic_equipment_3_short: "R&C C48 Husky"
+ CGY_ballistic_equipment_3_desc: "High calibre bolt action sniper rifle, reliable, durable, and built for the Canadian Winter."
+
+ CGY_ballistic_equipment_2: "Colt Canada C22 Sevice Rifle"
+ CGY_ballistic_equipment_2_short: "Colt Canada C22"
+ CGY_ballistic_equipment_2_desc: "A mainstay weapon of the pre-war Canadian Army, repaired and refurbished with Redwood furniture. Chambered in 5.56mm."
+
+ CGY_ballistic_equipment_1: "Colt Canada N99 10mm Pistol"
+ CGY_ballistic_equipment_1_desc: "The Military-issue sidearm of the Pre-Annexation Canadian Military as well as the US-Army. Chambered in 10mm."
+ CGY_ballistic_equipment_1_short: "Colt Canada N99"

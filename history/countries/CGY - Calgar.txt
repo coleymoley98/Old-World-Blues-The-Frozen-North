@@ -1,4 +1,4 @@
-﻿capital = 9683
+﻿capital = 812
 
 oob="CGY_2275"
 set_country_flag = is_settler_nation

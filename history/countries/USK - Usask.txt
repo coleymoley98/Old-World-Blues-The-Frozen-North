@@ -1,4 +1,4 @@
-﻿capital = 2645
+﻿capital = 826
 
 oob = "USK_2275"
 set_country_flag = is_settler_nation

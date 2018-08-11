@@ -1,4 +1,4 @@
-﻿capital = 9753
+﻿capital = 823
 
 set_technology = {
 	standard_weaponry_tech = 1
