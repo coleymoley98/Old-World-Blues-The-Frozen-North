@@ -1,4 +1,4 @@
-division_template = {
+﻿division_template = {
 	name = "Calgar Infantry"
 	division_names_group = CGY_INF_01
 	regiments = {
@@ -138,7 +138,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_2
+			type = ballistic_equipment_1 
 			creator = "CGY"
 		}
 		requested_factories = 1

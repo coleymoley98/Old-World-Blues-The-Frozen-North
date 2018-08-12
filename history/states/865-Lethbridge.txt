@@ -22,7 +22,7 @@ state={
 	electricity = 10
 	fuel = 5
 	}
-	manpower=4500
-	state_category=town
+	manpower=11500
+	state_category=city
 	buildings_max_level_factor=1.000
 }

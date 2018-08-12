@@ -1,4 +1,4 @@
-﻿capital = 652
+﻿capital = 817
 
 OOB = "DIN_2275"
 set_country_flag = is_raider_nation

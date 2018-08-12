@@ -1,0 +1,52 @@
+opinion_modifiers = {
+	swordandcross = { value = -30 }
+	missionaries = { value = 30 }
+	onlythefaithful = { value = -10 }
+	renderuntocaesar = { value = 50 }
+	deployedrangers = { value = -25 }
+	sympathies = { value = 25 }
+	allisgood = { value = 25 }
+	politicobanditos = { value = 50 }
+	nevadaagreements = { value = 40 }
+	brotherhoodassault = { value = -50 }
+	equalassault = { value = 25 }
+	ncrassault = { value = 50 }
+	ncrembassy = { value = 20 }
+	ncrtradedeal = { trade = yes value = 50 }
+	caravan_protection = { trade = yes value = 35 }
+	klamethdeal = { trade = yes value = 30 }
+	loyal_tribe = { value = 100 }
+	disloyal_tribe = { value = -50 }
+	i80_given = { value = 40 }
+	shislightlydislikesbos = { value = -30 }
+	shihatesbos = { value = -50 }
+	arroyolikebos = { value = 100 }
+	mojavepactjoined = { value = 50 }
+	mojavepactrefused = { value = -50 }
+	dambustersjoined = { value = 50 }
+	dambustersrefused = { value = -50 }
+	nevadapact = { value = 75 }
+	nevadapactrefused = { value = -75 }
+	steelrangers = { value = 100 }
+	boshatesmutants = { value = -200 }
+	boshateswashingtonstatebos = { value = -150 }
+	mutantshatebos = { value = -200 }
+	far_away = { value = -10 }
+	very_far_away = { value = -20 }
+	intellectualallies = { value = 75 }
+	repairedhelios = { value = 25 }
+	stolehelios = { value = -50 }
+	northern_league_refused { value = -150 }
+	northern_league = { value = 200 }
+	mojave_bos_faction = { value = 75 }
+	mojave_bos_faction_refused = { value = -75 }
+	mojave_ncr_trade = { trade = yes value = 75 }
+	mojave_ncr_raids = { value = -75 }
+	supermutants = { value = -200 }
+	non_supermutants = { value = -100 }
+	settlers_vs_raiders = { value = -30 }
+	world_view_hea = { value = -100 }
+	hea_view_world = { value = -150 }
+	world_view_brk = { value = -100 }
+	brk_view_world = { value = -80 }
+}

@@ -3,9 +3,9 @@ state={
 	id=832
 	name="STATE_HANNA"
 	provinces={
-		2466 2556 9685 9688 9689 9695 9704 
+		2466 2556 9685 9688 9689 9695 9704
 	}
-	manpower=1000
+	manpower=6000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

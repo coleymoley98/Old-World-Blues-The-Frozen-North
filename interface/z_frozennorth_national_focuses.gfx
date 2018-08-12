@@ -1,0 +1,57 @@
+spriteTypes = {
+	###########################
+	######## Calgar #######
+	###########################
+	spriteType = {
+		name = "GFX_CGY_AlbertanAmbitions"
+		texturefile = "gfx/interface/goals/CGY_AlbertanAmbitions.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_AlbertaPath_Dinos"
+		texturefile = "gfx/interface/goals/CGY_AlbertaPath_Dinos.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_AlbertaPath_Pen_MDH"
+		texturefile = "gfx/interface/goals/CGY_AlbertaPath_Pen_MDH.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_AlbertaPath_Pen_RDR"
+		texturefile = "gfx/interface/goals/CGY_AlbertaPath_PEN_RDR.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_AlbertaPath_PenSTART"
+		texturefile = "gfx/interface/goals/CGY_AlbertaPath_PenSTART.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_AlbertaPath_sword_RDR"
+		texturefile = "gfx/interface/goals/CGY_AlbertaPath_sword_RDR.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_AlbertaPath_sword_MDH"
+		texturefile = "gfx/interface/goals/CGY_AlbertaPath_sword_MDH.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_AlbertaPath_SwordSTART"
+		texturefile = "gfx/interface/goals/CGY_AlbertaPath_SwordSTART.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_HomeFocus"
+		texturefile = "gfx/interface/goals/CGY_HomeFocus.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_Saddledome"
+		texturefile = "gfx/interface/goals/CGY_Saddledome.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_Restore_Alberta"
+		texturefile = "gfx/interface/goals/CGY_Restore_Alberta.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_HomeFocusA"
+		texturefile = "gfx/interface/goals/CGY_.dds"
+	}
+	spriteType = {
+		name = "GFX_CGY_HomeFocusA"
+		texturefile = "gfx/interface/goals/CGY_.dds"
+	}
+}
