@@ -559,3 +559,11 @@ CBH = {
 	color = rgb { 24 72 152 }
 	color_ui = rgb { 24 72 152 }
 }
+NBH = {
+	color = rgb { 94 0 0 }
+	color_ui = rgb { 94 0 0 }
+}
+HNA = {
+	color = rgb { 200 10 10 }
+	color_ui = rgb { 200 10 10 }
+}

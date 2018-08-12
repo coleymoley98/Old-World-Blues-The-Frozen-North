@@ -126,8 +126,21 @@
  NBH_elites:0 "Northern Brotherhood"
  NBH_elites_DEF:0 "Northern Brotherhood"
  NBH_elites_ADJ:0 "Northern Brotherhood"
+#HANNA
+ HNA_people:0 "Hanna"
+ HNA_people_DEF:0 "Hanna"
+ HNA_people_ADJ:0 "Hanna"
+ HNA_intellectuals:0 "Hanna"
+ HNA_intellectuals_DEF:0 "Hanna"
+ HNA_intellectuals_ADJ:0 "Hanna"
+ HNA_ruler:0 "Hanna"
+ HNA_ruler_DEF:0 "Hanna"
+ HNA_ruler_ADJ:0 "Hanna"
+ HNA_elites:0 "Hanna"
+ HNA_elites_DEF:0 "Hanna"
+ HNA_elites_ADJ:0 "Hanna"
 #METIS
-  
+
 #ALTA METIS
 
 #SASK METIS

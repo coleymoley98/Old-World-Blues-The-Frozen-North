@@ -3,9 +3,19 @@ state={
 	id=827
 	name="STATE_CEREAL"
 	provinces={
-		2550 2555 9690 9699 9709 
+		2550 2555 9690 9699 9709
 	}
-	manpower=2000
+	history={
+		owner = HNA
+		add_core_of = HNA
+		victory_points = {
+			9699 10
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=4000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

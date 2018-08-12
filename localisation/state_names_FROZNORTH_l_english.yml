@@ -80,4 +80,5 @@
  STATE_LEADER:0 "Leader"
  STATE_WRIEL:0 "West Riel City"
  STATE_ERIEL:0 "East Riel City"
+ STATE_SEDGEWICK:0 "Sedgwick"
  STATE_TODO:0 "Maple Creek"

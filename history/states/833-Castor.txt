@@ -3,9 +3,19 @@ state={
 	id=833
 	name="STATE_CASTOR"
 	provinces={
-		611 2467 9726 9738 
+		611 2467 9726 9738
 	}
-	manpower=1000
+	history={
+		owner = HNA
+		add_core_of = HNA
+		victory_points = {
+			9726 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=5000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
