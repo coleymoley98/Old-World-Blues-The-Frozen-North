@@ -56,73 +56,66 @@ division_template = {
 
 units = {
 	division {
-		name = "1st Infantry Team"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 1
 			}
 		location = 9683 # Calgary
 		division_template = "Calgar Infantry"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division {
-		name = "2nd Infantry Team"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 2
 			}
 		location = 9683
 		division_template = "Calgar Infantry"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division {
-			name = "3rd Mobile Team"
 			division_name = {    # New syntax for compatibility with name lists
 				is_name_ordered = yes
 				name_order = 3
 				}
 			location = 9683
 			division_template = "Calgar Mobile"
-			start_experience_factor = 1.0
+			start_experience_factor = 0.2
 			start_equipment_factor = 1.0
 		}
 		division {
-			name = "4th Infantry Team"
 			division_name = {    # New syntax for compatibility with name lists
 				is_name_ordered = yes
 				name_order = 4
 				}
 			location = 9844 # Lethbridge
 			division_template = "Calgar Infantry"
-			start_experience_factor = 1.0
+			start_experience_factor = 0.2
 			start_equipment_factor = 1.0
 		}
 		division {
-			name = "5th Infantry Team"
 			division_name = {    # New syntax for compatibility with name lists
 				is_name_ordered = yes
 				name_order = 5
 				}
 			location = 9844
 			division_template = "Calgar Infantry"
-			start_experience_factor = 1.0
+			start_experience_factor = 0.2
 			start_equipment_factor = 1.0
 		}
 		division {
-			name = "6th Infantry Team"
 			division_name = {    # New syntax for compatibility with name lists
 				is_name_ordered = yes
 				name_order = 6
 				}
 			location = 9710 # Banff
 			division_template = "Calgar Infantry"
-			start_experience_factor = 1.0
+			start_experience_factor = 0.3
 			start_equipment_factor = 1.0
 		}
 		division {
-			name = "1st 'Cowboys' Recon Team"
 			division_name = {    # New syntax for compatibility with name lists
 				is_name_ordered = yes
 				name_order = 1
@@ -138,7 +131,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = ballistic_equipment_1 
+			type = ballistic_equipment_1
 			creator = "CGY"
 		}
 		requested_factories = 1

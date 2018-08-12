@@ -1,0 +1,16 @@
+﻿add_namespace = nf_CGY
+country_event = {
+	id = nf_CGY.0
+	title = nf_CGY.0.t
+	picture = GFX_event_test
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc =nf_CGY.0.d
+	option = {
+	name = nf_CGY.0.a
+	set_province_name = {
+		id = 9683
+		name = "The Sadddledome"
+		}
+	}
+}

@@ -1,0 +1,824 @@
+focus_tree = {
+	id = CGY_Focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CGY
+		}
+	}
+	default = no
+	focus = {
+		id = CGY_focus_0
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		mutually_exclusive = {
+			focus = CGY_focus_1
+		}
+		x = 10
+		y = 0
+			completion_reward = {
+					add_political_power = 300
+					add_stability = 0.1
+				}
+
+	}
+	focus = {
+		id = CGY_focus_1
+		icon = GFX_focus_wonderweapons
+		cost = 10.00
+		mutually_exclusive = {
+			focus = CGY_focus_0
+		}
+		x = 18
+		y = 0
+			completion_reward = {
+					add_political_power = 300
+					add_stability = -0.20
+				}
+
+	}
+	focus = {
+		id = CGY_focus_27
+		icon = GFX_CGY_HomeFocus
+		cost = 10.00
+		x = 29
+		y = 0
+
+	}
+	focus = {
+		id = CGY_focus_10
+		icon = GFX_CGY_Saddledome
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_0
+		}
+		x = 10
+		y = 1
+			completion_reward = {
+					country_event = {
+							id = nf_CGY.0
+							days = 3
+						}
+				}
+
+	}
+	focus = {
+		id = CGY_focus_11
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_10
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = CGY_focus_9
+		icon = GFX_generic_advanced_technology_focus
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_1
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_4
+			focus = CGY_focus_6
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = CGY_focus_35
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_9
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = CGY_focus_22
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_35
+			focus = CGY_focus_11
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = CGY_focus_23
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_22
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = CGY_focus_24
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_23
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = CGY_focus_26
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_23
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = CGY_focus_12
+		icon = GFX_generic_generic_diplomatic_focus
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_11
+			focus = CGY_focus_35
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = CGY_focus_4
+		icon = GFX_generic_ideological_fury_focus
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_1
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_9
+			focus = CGY_focus_6
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = CGY_focus_6
+		icon = GFX_focus_bottlecap
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_1
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_4
+			focus = CGY_focus_9
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = CGY_focus_7
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_4
+			focus = CGY_focus_6
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = CGY_focus_13
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_7
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = CGY_focus_2
+		icon = GFX_generic_bunkers_focus
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_13
+			focus = CGY_focus_12
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = CGY_focus_31
+		icon = GFX_CGY_TransCanada
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_2
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = CGY_focus_32
+		icon = GFX_CGY_SK_Expeditions
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_31
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = CGY_focus_41
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_32
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_36
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_36
+		icon = GFX_generic_supplies_focus
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_32
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_41
+		}
+		x = 19
+		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_33
+		icon = GFX_CGY_BC_Expeditions
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_31
+		}
+		x = 28
+		y = 7
+
+	}
+	focus = {
+		id = CGY_focus_38
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_33
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_42
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_37
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_36
+		}
+		prerequisite = {
+			focus = CGY_focus_38
+		}
+		x = 22
+		y = 9
+
+	}
+	focus = {
+		id = CGY_focus_40
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_38
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = CGY_focus_50
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_37
+		}
+		prerequisite = {
+			focus = CGY_focus_40
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = CGY_focus_52
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_40
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = CGY_focus_56
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_50
+		}
+		prerequisite = {
+			focus = CGY_focus_52
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = CGY_focus_3
+		icon = GFX_CGY_AlbertanAmbitions
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_2
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = CGY_focus_5
+		icon = GFX_CGY_AlbertaPath_SwordSTART
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_3
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_8
+		}
+		x = 12
+		y = 7
+			available = {
+					if = {
+							has_government = ruler
+						}
+					OR = {
+							has_government = elites
+						}
+				}
+
+	}
+	focus = {
+		id = CGY_focus_8
+		icon = GFX_CGY_AlbertaPath_PenSTART
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_3
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_5
+		}
+		x = 8
+		y = 7
+			available = {
+					if = {
+							has_government = people
+						}
+					OR = {
+							has_government = intellectuals
+						}
+				}
+			completion_reward = {
+					set_country_flag = CGY_Diplo_Alberta
+					add_political_power = 100
+				}
+
+	}
+	focus = {
+		id = CGY_focus_14
+		icon = GFX_CGY_AlbertaPath_Dinos
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_5
+			focus = CGY_focus_8
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_15
+		icon = GFX_CGY_AlbertaPath_Pen_RDR
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_8
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_16
+		icon = GFX_CGY_AlbertaPath_sword_RDR
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_5
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_17
+		icon = GFX_CGY_AlbertaPath_Pen_MDH
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_14
+		}
+		prerequisite = {
+			focus = CGY_focus_15
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = CGY_focus_18
+		icon = GFX_CGY_AlbertaPath_sword_MDH
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_14
+		}
+		prerequisite = {
+			focus = CGY_focus_16
+		}
+		x = 13
+		y = 9
+
+	}
+	focus = {
+		id = CGY_focus_19
+		icon = GFX_CGY_Restore_Alberta
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_34
+		}
+		x = 8
+		y = 11
+
+	}
+	focus = {
+		id = CGY_focus_20
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_34
+		}
+		x = 10
+		y = 11
+
+	}
+	focus = {
+		id = CGY_focus_21
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_18
+		}
+		prerequisite = {
+			focus = CGY_focus_60
+		}
+		x = 12
+		y = 10
+
+	}
+	focus = {
+		id = CGY_focus_25
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_23
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = CGY_focus_28
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_24
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = CGY_focus_29
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_25
+		}
+		x = 3
+		y = 7
+
+	}
+	focus = {
+		id = CGY_focus_30
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_26
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = CGY_focus_34
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_17
+		}
+		prerequisite = {
+			focus = CGY_focus_61
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = CGY_focus_39
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_36
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = CGY_focus_42
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_33
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_38
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_43
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_28
+		}
+		x = 1
+		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_44
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_29
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_45
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_30
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_46
+		icon = GFX_focus_1_TransCanada
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_45
+		}
+		prerequisite = {
+			focus = CGY_focus_44
+		}
+		prerequisite = {
+			focus = CGY_focus_43
+		}
+		x = 3
+		y = 9
+
+	}
+	focus = {
+		id = CGY_focus_47
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_21
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = CGY_focus_48
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_47
+		}
+		x = 13
+		y = 12
+
+	}
+	focus = {
+		id = CGY_focus_49
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_34
+		}
+		prerequisite = {
+			focus = CGY_focus_46
+		}
+		x = 3
+		y = 11
+
+	}
+	focus = {
+		id = CGY_focus_51
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_50
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
+		id = CGY_focus_53
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_42
+		}
+		x = 31
+		y = 9
+
+	}
+	focus = {
+		id = CGY_focus_54
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_39
+		}
+		x = 19
+		y = 10
+
+	}
+	focus = {
+		id = CGY_focus_55
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_19
+			focus = CGY_focus_20
+		}
+		x = 9
+		y = 12
+
+	}
+	focus = {
+		id = CGY_focus_57
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_52
+			focus = CGY_focus_58
+		}
+		x = 28
+		y = 11
+
+	}
+	focus = {
+		id = CGY_focus_58
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_53
+		}
+		x = 30
+		y = 10
+
+	}
+	focus = {
+		id = CGY_focus_59
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_58
+		}
+		x = 31
+		y = 11
+
+	}
+	focus = {
+		id = CGY_focus_60
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_16
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = CGY_focus_61
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_15
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = CGY_focus_62
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_49
+		}
+		x = 1
+		y = 12
+
+	}
+	focus = {
+		id = CGY_focus_63
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_49
+		}
+		x = 3
+		y = 12
+
+	}
+	focus = {
+		id = CGY_focus_64
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_49
+		}
+		x = 5
+		y = 12
+
+	}
+}

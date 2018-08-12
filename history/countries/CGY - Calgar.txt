@@ -43,9 +43,9 @@ add_ideas = {
 }
 
 create_country_leader  = {
-	name = "Eddie"
+	name = "Winston Harper"
 	desc = "Eddie_DESC"
-	picture = "Portrait_Eddie.dds"
+	picture = "gfx/leaders/Settler/Portrait_Settler_Generic_10.dds"
 	expire = "3000.1.1"
 	ideology = constitutional_republic
 
