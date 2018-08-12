@@ -8,6 +8,8 @@ state={
 		add_core_of = CGY
 		victory_points = {
 			9683 15
+			9684 5
+			9673 3
 		}
 		buildings = {
 			infrastructure = 2
