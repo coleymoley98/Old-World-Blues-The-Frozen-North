@@ -1,0 +1,566 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names.
+#           Numbers must start from 1 and up.
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either:
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+SSU_INF_01 =
+{
+	name = "Infantry Co-op"
+
+	for_countries = { SSU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GER_Gar_01 }
+
+	fallback_name = "%d Infantry Co-op"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Infantry Co-op" }
+		2 = { "%dnd Infantry Co-op" }
+		3 = { "%drd Infantry Co-op" }
+		4 = { "%dth Infantry Co-op" }
+		5 = { "%dth Infantry Co-op" }
+		6 = { "%dth Infantry Co-op" }
+		7 = { "%dth Infantry Co-op" }
+		8 = { "%dth Infantry Co-op" }
+		9 = { "%dth Infantry Co-op" }
+		10 = { "%dth Infantry Co-op" }
+		11 = { "%dth Infantry Co-op" }
+		12 = { "%dth Infantry Co-op" }
+		13 = { "%dth Infantry Co-op" }
+		14 = { "%dth Infantry Co-op" }
+		15 = { "%dth Infantry Co-op" }
+		16 = { "%dth Infantry Co-op" }
+		17 = { "%dth Infantry Co-op" }
+		18 = { "%dth Infantry Co-op" }
+		19 = { "%dth Infantry Co-op" }
+		20 = { "%dth Infantry Co-op" }
+		21 = { "%dst Infantry Co-op" }
+		22 = { "%dnd Infantry Co-op" }
+		23 = { "%drd Infantry Co-op" }
+		24 = { "%dth Infantry Co-op" }
+		25 = { "%dth Infantry Co-op" }
+		26 = { "%dth Infantry Co-op" }
+		27 = { "%dth Infantry Co-op" }
+		28 = { "%dth Infantry Co-op" }
+		29 = { "%dth Infantry Co-op" }
+		30 = { "%dth Infantry Co-op" }
+		31 = { "%dst Infantry Co-op" }
+		32 = { "%dnd Infantry Co-op" }
+		33 = { "%drd Infantry Co-op" }
+		34 = { "%dth Infantry Co-op" }
+		35 = { "%dth Infantry Co-op" }
+		36 = { "%dth Infantry Co-op" }
+		37 = { "%dth Infantry Co-op" }
+		38 = { "%dth Infantry Co-op" }
+		39 = { "%dth Infantry Co-op" }
+		40 = { "%dth Infantry Co-op" }
+		41 = { "%dst Infantry Co-op" }
+		42 = { "%dnd Infantry Co-op" }
+		43 = { "%drd Infantry Co-op" }
+		44 = { "%dth Infantry Co-op" }
+		45 = { "%dth Infantry Co-op" }
+		46 = { "%dth Infantry Co-op" }
+		47 = { "%dth Infantry Co-op" }
+		48 = { "%dth Infantry Co-op" }
+		49 = { "%dth Infantry Co-op" }
+		50 = { "%dth Infantry Co-op" }
+		51 = { "%dst Infantry Co-op" }
+		52 = { "%dnd Infantry Co-op" }
+		53 = { "%drd Infantry Co-op" }
+		54 = { "%dth Infantry Co-op" }
+		55 = { "%dth Infantry Co-op" }
+		56 = { "%dth Infantry Co-op" }
+		57 = { "%dth Infantry Co-op" }
+		58 = { "%dth Infantry Co-op" }
+		59 = { "%dth Infantry Co-op" }
+		60 = { "%dth Infantry Co-op" }
+		61 = { "%dst Infantry Co-op" }
+		62 = { "%dnd Infantry Co-op" }
+		63 = { "%drd Infantry Co-op" }
+		64 = { "%dth Infantry Co-op" }
+		65 = { "%dth Infantry Co-op" }
+		66 = { "%dth Infantry Co-op" }
+		67 = { "%dth Infantry Co-op" }
+		68 = { "%dth Infantry Co-op" }
+		69 = { "%dth Infantry Co-op" }
+		70 = { "%dth Infantry Co-op" }
+		71 = { "%dst Infantry Co-op" }
+		72 = { "%dnd Infantry Co-op" }
+		73 = { "%drd Infantry Co-op" }
+		74 = { "%dth Infantry Co-op" }
+		75 = { "%dth Infantry Co-op" }
+		76 = { "%dth Infantry Co-op" }
+		77 = { "%dth Infantry Co-op" }
+		78 = { "%dth Infantry Co-op" }
+		79 = { "%dth Infantry Co-op" }
+		80 = { "%dth Infantry Co-op" }
+		81 = { "%dst Infantry Co-op" }
+		82 = { "%dnd Infantry Co-op" }
+		83 = { "%drd Infantry Co-op" }
+		84 = { "%dth Infantry Co-op" }
+		85 = { "%dth Infantry Co-op" }
+		86 = { "%dth Infantry Co-op" }
+		87 = { "%dth Infantry Co-op" }
+		88 = { "%dth Infantry Co-op" }
+		89 = { "%dth Infantry Co-op" }
+		90 = { "%dth Infantry Co-op" }
+		91 = { "%dst Infantry Co-op" }
+		92 = { "%dnd Infantry Co-op" }
+		93 = { "%drd Infantry Co-op" }
+		94 = { "%dth Infantry Co-op" }
+		95 = { "%dth Infantry Co-op" }
+		96 = { "%dth Infantry Co-op" }
+		97 = { "%dth Infantry Co-op" }
+		98 = { "%dth Infantry Co-op" }
+		99 = { "%dth Infantry Co-op" }
+		100 = { "%dth Infantry Co-op" }
+		101 = { "%dst Infantry Co-op" }
+
+		# CAN in HoI3 had 100 Inf divs in its list, so HoI4 can have 101!
+	}
+}
+SSU_INF_02 =
+{
+	name = "Roughriders"
+
+	for_countries = { SSU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GER_Gar_01 }
+
+	fallback_name = "%d Roughriders Co-op" # Nicknames from Pre-War Hockey Co-ops
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Roughriders Co-op" } # Calgary Cowboys (Canadian Division, West)
+		2 = { "%dnd Roughriders Co-op" } # Montreal Canadiens (Canadian Division, East)
+		3 = { "%drd Roughriders Co-op" } # Ottawa Senators (Canadian Division, East)
+		4 = { "%dth Roughriders Co-op" } # Toronto Maple Leafs (Canadian Division, East)
+		5 = { "%dth Roughriders Co-op" } # Vancouver Canucks (Canadian Division, West)
+		6 = { "%dth Roughriders Co-op" } # Edmonton Oilers (Canadian Division, West)
+		7 = { "%dth Roughriders Co-op" } # Quebec Nordiques (Canadian Division, West)
+		8 = { "%dth Roughriders Co-op" } # Winnipeg Jets (Canadian Division, West)
+		9 = { "%dth Roughriders Co-op" } # Saskatchewan Blades (Canadian Division, West)
+		10 = { "%dth Roughriders Co-op" } # Hamilton Tigers (Canadian Division, East)
+		11 = { "%dth Roughriders Co-op" } # Boston Bruins (American Division, East)
+		12 = { "%dth Roughriders Co-op" } # Detroit Red Wings (American Division, West)
+		13 = { "%dth Roughriders Co-op" } # New York Rangers (American Division, East)
+		14 = { "%dth Roughriders Co-op" } # Chicago Blackhawks (American Division, West)
+		15 = { "%dth Roughriders Co-op" } # Saint Louis Blues (American Division, West)
+		16 = { "%dth Roughriders Co-op" } # Philadelphia Quakers (American Division, East)
+		17 = { "%dth Roughriders Co-op" } # Seattle Emeralds (American Division, West)
+		18 = { "%dth Roughriders Co-op" } # New Jersey Devils (American Division, East)
+		19 = { "%dth Roughriders Co-op" } # Washington Capitals (American Division, East)
+		20 = { "%dth Roughriders Co-op" } # Los Angeles Kings (American Division, West)
+	}
+}
+SSU_MOT_01 =
+{
+	name = "Mobile Co-op"
+
+	for_countries = { SSU }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SSU_INF_01 }
+
+	fallback_name = "%. Mobile Co-op"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Mobile Co-op" }
+		2 = { "%dnd Mobile Co-op" }
+		3 = { "%drd Mobile Co-op" }
+		4 = { "%dth Mobile Co-op" }
+		5 = { "%dth Mobile Co-op" }
+		6 = { "%dth Mobile Co-op" }
+		7 = { "%dth Mobile Co-op" }
+		8 = { "%dth Mobile Co-op" }
+		9 = { "%dth Mobile Co-op" }
+		10 = { "%dth Mobile Co-op" }
+		11 = { "%dth Mobile Co-op" }
+		12 = { "%dth Mobile Co-op" }
+		13 = { "%dth Mobile Co-op" }
+		14 = { "%dth Mobile Co-op" }
+		15 = { "%dth Mobile Co-op" }
+		16 = { "%dth Mobile Co-op" }
+		17 = { "%dth Mobile Co-op" }
+		18 = { "%dth Mobile Co-op" }
+		19 = { "%dth Mobile Co-op" }
+		20 = { "%dth Mobile Co-op" }
+		21 = { "%dst Mobile Co-op" }
+		22 = { "%dnd Mobile Co-op" }
+		23 = { "%drd Mobile Co-op" }
+		24 = { "%dth Mobile Co-op" }
+		25 = { "%dth Mobile Co-op" }
+		26 = { "%dth Mobile Co-op" }
+		27 = { "%dth Mobile Co-op" }
+		28 = { "%dth Mobile Co-op" }
+		29 = { "%dth Mobile Co-op" }
+		30 = { "%dth Mobile Co-op" }
+		31 = { "%dst Mobile Co-op" }
+		32 = { "%dnd Mobile Co-op" }
+		33 = { "%drd Mobile Co-op" }
+		34 = { "%dth Mobile Co-op" }
+		35 = { "%dth Mobile Co-op" }
+		36 = { "%dth Mobile Co-op" }
+		37 = { "%dth Mobile Co-op" }
+		38 = { "%dth Mobile Co-op" }
+		39 = { "%dth Mobile Co-op" }
+		40 = { "%dth Mobile Co-op" }
+		41 = { "%dst Mobile Co-op" }
+		42 = { "%dnd Mobile Co-op" }
+		43 = { "%drd Mobile Co-op" }
+		44 = { "%dth Mobile Co-op" }
+		45 = { "%dth Mobile Co-op" }
+		46 = { "%dth Mobile Co-op" }
+		47 = { "%dth Mobile Co-op" }
+		48 = { "%dth Mobile Co-op" }
+		49 = { "%dth Mobile Co-op" }
+		50 = { "%dth Mobile Co-op" }
+		51 = { "%dst Mobile Co-op" }
+		52 = { "%dnd Mobile Co-op" }
+		53 = { "%drd Mobile Co-op" }
+		54 = { "%dth Mobile Co-op" }
+		55 = { "%dth Mobile Co-op" }
+		56 = { "%dth Mobile Co-op" }
+		57 = { "%dth Mobile Co-op" }
+		58 = { "%dth Mobile Co-op" }
+		59 = { "%dth Mobile Co-op" }
+		60 = { "%dth Mobile Co-op" }
+		61 = { "%dst Mobile Co-op" }
+		62 = { "%dnd Mobile Co-op" }
+		63 = { "%drd Mobile Co-op" }
+		64 = { "%dth Mobile Co-op" }
+		65 = { "%dth Mobile Co-op" }
+		66 = { "%dth Mobile Co-op" }
+		67 = { "%dth Mobile Co-op" }
+		68 = { "%dth Mobile Co-op" }
+		69 = { "%dth Mobile Co-op" }
+		70 = { "%dth Mobile Co-op" }
+		71 = { "%dst Mobile Co-op" }
+		72 = { "%dnd Mobile Co-op" }
+		73 = { "%drd Mobile Co-op" }
+		74 = { "%dth Mobile Co-op" }
+		75 = { "%dth Mobile Co-op" }
+		76 = { "%dth Mobile Co-op" }
+		77 = { "%dth Mobile Co-op" }
+		78 = { "%dth Mobile Co-op" }
+		79 = { "%dth Mobile Co-op" }
+		80 = { "%dth Mobile Co-op" }
+		81 = { "%dst Mobile Co-op" }
+		82 = { "%dnd Mobile Co-op" }
+		83 = { "%drd Mobile Co-op" }
+		84 = { "%dth Mobile Co-op" }
+		85 = { "%dth Mobile Co-op" }
+		86 = { "%dth Mobile Co-op" }
+		87 = { "%dth Mobile Co-op" }
+		88 = { "%dth Mobile Co-op" }
+		89 = { "%dth Mobile Co-op" }
+		90 = { "%dth Mobile Co-op" }
+		91 = { "%dst Mobile Co-op" }
+		92 = { "%dnd Mobile Co-op" }
+		93 = { "%drd Mobile Co-op" }
+		94 = { "%dth Mobile Co-op" }
+		95 = { "%dth Mobile Co-op" }
+		96 = { "%dth Mobile Co-op" }
+		97 = { "%dth Mobile Co-op" }
+		98 = { "%dth Mobile Co-op" }
+		99 = { "%dth Mobile Co-op" }
+		100 = { "%dth Mobile Co-op" }
+		101 = { "%dst Mobile Co-op" }
+	}
+}
+
+SSU_GAR_01 =
+{
+	name = "Settlers' Co-op"
+
+	for_countries = { SSU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	# link_numbering_with = { SSU_INF_01 }
+
+	fallback_name = "%. Settlers' Co-op"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Settlers' Co-op" }
+		2 = { "%dnd Settlers' Co-op" }
+		3 = { "%drd Settlers' Co-op" }
+		4 = { "%dth Settlers' Co-op" }
+		5 = { "%dth Settlers' Co-op" }
+		6 = { "%dth Settlers' Co-op" }
+		7 = { "%dth Settlers' Co-op" }
+		8 = { "%dth Settlers' Co-op" }
+		9 = { "%dth Settlers' Co-op" }
+		10 = { "%dth Settlers' Co-op" }
+		11 = { "%dth Settlers' Co-op" }
+		12 = { "%dth Settlers' Co-op" }
+		13 = { "%dth Settlers' Co-op" }
+		14 = { "%dth Settlers' Co-op" }
+		15 = { "%dth Settlers' Co-op" }
+		16 = { "%dth Settlers' Co-op" }
+		17 = { "%dth Settlers' Co-op" }
+		18 = { "%dth Settlers' Co-op" }
+		19 = { "%dth Settlers' Co-op" }
+		20 = { "%dth Settlers' Co-op" }
+		21 = { "%dst Settlers' Co-op" }
+		22 = { "%dnd Settlers' Co-op" }
+		23 = { "%drd Settlers' Co-op" }
+		24 = { "%dth Settlers' Co-op" }
+		25 = { "%dth Settlers' Co-op" }
+		26 = { "%dth Settlers' Co-op" }
+		27 = { "%dth Settlers' Co-op" }
+		28 = { "%dth Settlers' Co-op" }
+		29 = { "%dth Settlers' Co-op" }
+		30 = { "%dth Settlers' Co-op" }
+		31 = { "%dst Settlers' Co-op" }
+		32 = { "%dnd Settlers' Co-op" }
+		33 = { "%drd Settlers' Co-op" }
+		34 = { "%dth Settlers' Co-op" }
+		35 = { "%dth Settlers' Co-op" }
+		36 = { "%dth Settlers' Co-op" }
+		37 = { "%dth Settlers' Co-op" }
+		38 = { "%dth Settlers' Co-op" }
+		39 = { "%dth Settlers' Co-op" }
+		40 = { "%dth Settlers' Co-op" }
+		41 = { "%dst Settlers' Co-op" }
+		42 = { "%dnd Settlers' Co-op" }
+		43 = { "%drd Settlers' Co-op" }
+		44 = { "%dth Settlers' Co-op" }
+		45 = { "%dth Settlers' Co-op" }
+		46 = { "%dth Settlers' Co-op" }
+		47 = { "%dth Settlers' Co-op" }
+		48 = { "%dth Settlers' Co-op" }
+		49 = { "%dth Settlers' Co-op" }
+		50 = { "%dth Settlers' Co-op" }
+		51 = { "%dst Settlers' Co-op" }
+		52 = { "%dnd Settlers' Co-op" }
+		53 = { "%drd Settlers' Co-op" }
+		54 = { "%dth Settlers' Co-op" }
+		55 = { "%dth Settlers' Co-op" }
+		56 = { "%dth Settlers' Co-op" }
+		57 = { "%dth Settlers' Co-op" }
+		58 = { "%dth Settlers' Co-op" }
+		59 = { "%dth Settlers' Co-op" }
+		60 = { "%dth Settlers' Co-op" }
+		61 = { "%dst Settlers' Co-op" }
+		62 = { "%dnd Settlers' Co-op" }
+		63 = { "%drd Settlers' Co-op" }
+		64 = { "%dth Settlers' Co-op" }
+		65 = { "%dth Settlers' Co-op" }
+		66 = { "%dth Settlers' Co-op" }
+		67 = { "%dth Settlers' Co-op" }
+		68 = { "%dth Settlers' Co-op" }
+		69 = { "%dth Settlers' Co-op" }
+		70 = { "%dth Settlers' Co-op" }
+		71 = { "%dst Settlers' Co-op" }
+		72 = { "%dnd Settlers' Co-op" }
+		73 = { "%drd Settlers' Co-op" }
+		74 = { "%dth Settlers' Co-op" }
+		75 = { "%dth Settlers' Co-op" }
+		76 = { "%dth Settlers' Co-op" }
+		77 = { "%dth Settlers' Co-op" }
+		78 = { "%dth Settlers' Co-op" }
+		79 = { "%dth Settlers' Co-op" }
+		80 = { "%dth Settlers' Co-op" }
+		81 = { "%dst Settlers' Co-op" }
+		82 = { "%dnd Settlers' Co-op" }
+		83 = { "%drd Settlers' Co-op" }
+		84 = { "%dth Settlers' Co-op" }
+		85 = { "%dth Settlers' Co-op" }
+		86 = { "%dth Settlers' Co-op" }
+		87 = { "%dth Settlers' Co-op" }
+		88 = { "%dth Settlers' Co-op" }
+		89 = { "%dth Settlers' Co-op" }
+		90 = { "%dth Settlers' Co-op" }
+		91 = { "%dst Settlers' Co-op" }
+		92 = { "%dnd Settlers' Co-op" }
+		93 = { "%drd Settlers' Co-op" }
+		94 = { "%dth Settlers' Co-op" }
+		95 = { "%dth Settlers' Co-op" }
+		96 = { "%dth Settlers' Co-op" }
+		97 = { "%dth Settlers' Co-op" }
+		98 = { "%dth Settlers' Co-op" }
+		99 = { "%dth Settlers' Co-op" }
+		100 = { "%dth Settlers' Co-op" }
+		101 = { "%dst Settlers' Co-op" }
+	}
+}
+
+SSU_GAR_02 =
+{
+	name = "Settlers' (Mob.) Co-op"
+
+	for_countries = { SSU }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SSU_GAR_01 }
+
+	fallback_name = "%. Settlers' (Mob.) Co-op"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dst Settlers' (Mob.) Co-op" }
+		2 = { "%dnd Settlers' (Mob.) Co-op" }
+		3 = { "%drd Settlers' (Mob.) Co-op" }
+		4 = { "%dth Settlers' (Mob.) Co-op" }
+		5 = { "%dth Settlers' (Mob.) Co-op" }
+		6 = { "%dth Settlers' (Mob.) Co-op" }
+		7 = { "%dth Settlers' (Mob.) Co-op" }
+		8 = { "%dth Settlers' (Mob.) Co-op" }
+		9 = { "%dth Settlers' (Mob.) Co-op" }
+		10 = { "%dth Settlers' (Mob.) Co-op" }
+		11 = { "%dth Settlers' (Mob.) Co-op" }
+		12 = { "%dth Settlers' (Mob.) Co-op" }
+		13 = { "%dth Settlers' (Mob.) Co-op" }
+		14 = { "%dth Settlers' (Mob.) Co-op" }
+		15 = { "%dth Settlers' (Mob.) Co-op" }
+		16 = { "%dth Settlers' (Mob.) Co-op" }
+		17 = { "%dth Settlers' (Mob.) Co-op" }
+		18 = { "%dth Settlers' (Mob.) Co-op" }
+		19 = { "%dth Settlers' (Mob.) Co-op" }
+		20 = { "%dth Settlers' (Mob.) Co-op" }
+		21 = { "%dst Settlers' (Mob.) Co-op" }
+		22 = { "%dnd Settlers' (Mob.) Co-op" }
+		23 = { "%drd Settlers' (Mob.) Co-op" }
+		24 = { "%dth Settlers' (Mob.) Co-op" }
+		25 = { "%dth Settlers' (Mob.) Co-op" }
+		26 = { "%dth Settlers' (Mob.) Co-op" }
+		27 = { "%dth Settlers' (Mob.) Co-op" }
+		28 = { "%dth Settlers' (Mob.) Co-op" }
+		29 = { "%dth Settlers' (Mob.) Co-op" }
+		30 = { "%dth Settlers' (Mob.) Co-op" }
+		31 = { "%dst Settlers' (Mob.) Co-op" }
+		32 = { "%dnd Settlers' (Mob.) Co-op" }
+		33 = { "%drd Settlers' (Mob.) Co-op" }
+		34 = { "%dth Settlers' (Mob.) Co-op" }
+		35 = { "%dth Settlers' (Mob.) Co-op" }
+		36 = { "%dth Settlers' (Mob.) Co-op" }
+		37 = { "%dth Settlers' (Mob.) Co-op" }
+		38 = { "%dth Settlers' (Mob.) Co-op" }
+		39 = { "%dth Settlers' (Mob.) Co-op" }
+		40 = { "%dth Settlers' (Mob.) Co-op" }
+		41 = { "%dst Settlers' (Mob.) Co-op" }
+		42 = { "%dnd Settlers' (Mob.) Co-op" }
+		43 = { "%drd Settlers' (Mob.) Co-op" }
+		44 = { "%dth Settlers' (Mob.) Co-op" }
+		45 = { "%dth Settlers' (Mob.) Co-op" }
+		46 = { "%dth Settlers' (Mob.) Co-op" }
+		47 = { "%dth Settlers' (Mob.) Co-op" }
+		48 = { "%dth Settlers' (Mob.) Co-op" }
+		49 = { "%dth Settlers' (Mob.) Co-op" }
+		50 = { "%dth Settlers' (Mob.) Co-op" }
+		51 = { "%dst Settlers' (Mob.) Co-op" }
+		52 = { "%dnd Settlers' (Mob.) Co-op" }
+		53 = { "%drd Settlers' (Mob.) Co-op" }
+		54 = { "%dth Settlers' (Mob.) Co-op" }
+		55 = { "%dth Settlers' (Mob.) Co-op" }
+		56 = { "%dth Settlers' (Mob.) Co-op" }
+		57 = { "%dth Settlers' (Mob.) Co-op" }
+		58 = { "%dth Settlers' (Mob.) Co-op" }
+		59 = { "%dth Settlers' (Mob.) Co-op" }
+		60 = { "%dth Settlers' (Mob.) Co-op" }
+		61 = { "%dst Settlers' (Mob.) Co-op" }
+		62 = { "%dnd Settlers' (Mob.) Co-op" }
+		63 = { "%drd Settlers' (Mob.) Co-op" }
+		64 = { "%dth Settlers' (Mob.) Co-op" }
+		65 = { "%dth Settlers' (Mob.) Co-op" }
+		66 = { "%dth Settlers' (Mob.) Co-op" }
+		67 = { "%dth Settlers' (Mob.) Co-op" }
+		68 = { "%dth Settlers' (Mob.) Co-op" }
+		69 = { "%dth Settlers' (Mob.) Co-op" }
+		70 = { "%dth Settlers' (Mob.) Co-op" }
+		71 = { "%dst Settlers' (Mob.) Co-op" }
+		72 = { "%dnd Settlers' (Mob.) Co-op" }
+		73 = { "%drd Settlers' (Mob.) Co-op" }
+		74 = { "%dth Settlers' (Mob.) Co-op" }
+		75 = { "%dth Settlers' (Mob.) Co-op" }
+		76 = { "%dth Settlers' (Mob.) Co-op" }
+		77 = { "%dth Settlers' (Mob.) Co-op" }
+		78 = { "%dth Settlers' (Mob.) Co-op" }
+		79 = { "%dth Settlers' (Mob.) Co-op" }
+		80 = { "%dth Settlers' (Mob.) Co-op" }
+		81 = { "%dst Settlers' (Mob.) Co-op" }
+		82 = { "%dnd Settlers' (Mob.) Co-op" }
+		83 = { "%drd Settlers' (Mob.) Co-op" }
+		84 = { "%dth Settlers' (Mob.) Co-op" }
+		85 = { "%dth Settlers' (Mob.) Co-op" }
+		86 = { "%dth Settlers' (Mob.) Co-op" }
+		87 = { "%dth Settlers' (Mob.) Co-op" }
+		88 = { "%dth Settlers' (Mob.) Co-op" }
+		89 = { "%dth Settlers' (Mob.) Co-op" }
+		90 = { "%dth Settlers' (Mob.) Co-op" }
+		91 = { "%dst Settlers' (Mob.) Co-op" }
+		92 = { "%dnd Settlers' (Mob.) Co-op" }
+		93 = { "%drd Settlers' (Mob.) Co-op" }
+		94 = { "%dth Settlers' (Mob.) Co-op" }
+		95 = { "%dth Settlers' (Mob.) Co-op" }
+		96 = { "%dth Settlers' (Mob.) Co-op" }
+		97 = { "%dth Settlers' (Mob.) Co-op" }
+		98 = { "%dth Settlers' (Mob.) Co-op" }
+		99 = { "%dth Settlers' (Mob.) Co-op" }
+		100 = { "%dth Settlers' (Mob.) Co-op" }
+		101 = { "%dst Settlers' (Mob.) Co-op" }
+	}
+}

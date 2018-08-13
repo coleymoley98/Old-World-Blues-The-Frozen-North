@@ -1,0 +1,10 @@
+state={
+	id=871
+	name="STATE_SHELLBROOK"
+	provinces={
+		9792 9866 9868
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

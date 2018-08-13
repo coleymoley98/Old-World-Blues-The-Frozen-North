@@ -1,0 +1,10 @@
+state={
+	id=873
+	name="STATE_WITCHEKAN"
+	provinces={
+		9870 9871 9872 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

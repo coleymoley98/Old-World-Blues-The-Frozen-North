@@ -155,6 +155,20 @@
 #ALTA METIS
 
 #SASK METIS
+
+#SASK SETTLERS UNION
+ SSU_people:0 "Saskatchewan Settlers' Union"
+ SSU_people_DEF:0 "The Saskatchewan Settlers' Union"
+ SSU_people_ADJ:0 "Saskatchewan Settler"
+ SSU_intellectuals:0 "Saskatchewan Settlers' Union"
+ SSU_intellectuals_DEF:0 "The Saskatchewan Settlers' Union"
+ SSU_intellectuals_ADJ:0 "Saskatchewan Settler"
+ SSU_ruler:0 "Saskatchewan Settlers' Union"
+ SSU_ruler_DEF:0 "The Saskatchewan Settlers' Union"
+ SSU_ruler_ADJ:0 "Saskatchewan Settler"
+ SSU_elites:0 "Saskatchewan Settlers' Union"
+ SSU_elites_DEF:0 "The Saskatchewan Settlers' Union"
+ SSU_elites_ADJ:0 "Saskatchewan Settler"
 #CALGAR provinces
  RDR_CGY_autonomy_puppet:0 "Province of Redder"
  RDR_CGY_autonomy_puppet_DEF:0 "The Province of Redder"

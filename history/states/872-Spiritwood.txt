@@ -1,0 +1,10 @@
+state={
+	id=872
+	name="STATE_SPIRITWOOD"
+	provinces={
+		9865 9867 9869
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

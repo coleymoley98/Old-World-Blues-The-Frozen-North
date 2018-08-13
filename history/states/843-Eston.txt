@@ -3,9 +3,19 @@ state={
 	id=843
 	name="STATE_ESTON"
 	provinces={
-		9680 9696 9703 
+		9680 9696 9703
 	}
-	manpower=1000
+	history={
+		owner = SSU
+		add_core_of = SSU
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9696 5
+		}
+	}
+	manpower=4000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

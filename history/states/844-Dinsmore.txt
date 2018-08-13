@@ -3,9 +3,19 @@ state={
 	id=844
 	name="STATE_DINSMORE"
 	provinces={
-		8642 9679 9682 9706 
+		8642 9679 9682 9706
 	}
-	manpower=1000
+	history={
+		owner = SSU
+		add_core_of = SSU
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9679 5
+		}
+	}
+	manpower=4000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

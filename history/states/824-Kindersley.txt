@@ -3,9 +3,28 @@ state={
 	id=824
 	name="STATE_KINDERSLEY"
 	provinces={
-		2552 9713 9730 9732 9736 9741 
+		2552 9713 9730 9732 9736 9741
 	}
-	manpower=3500
+	history={
+		owner = SSU
+		add_core_of = SSU
+		victory_points = {
+			9683 50
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 3
+		}
+	}
+	resources = {
+	water = 15
+	metal = 25
+	electricity = 20
+	fuel = 20
+	electronics = 5
+	}
+	manpower=17500
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_city
 }

@@ -3,7 +3,14 @@ state={
 	id=847
 	name="STATE_PARADISE_HILL"
 	provinces={
-		8639 9798 9809 
+		8639 9798 9809
+	}
+	history={
+		owner = MTC
+			add_core_of = MTC
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

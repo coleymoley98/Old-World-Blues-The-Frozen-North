@@ -571,3 +571,7 @@ MTC = {
 	color = rgb { 34 51 204 }
 	color_ui = rgb { 34 51 204 }
 }
+SSU = {
+	color = rgb { 93 108 83 }
+	color_ui = rgb { 93 108 83 }
+}
