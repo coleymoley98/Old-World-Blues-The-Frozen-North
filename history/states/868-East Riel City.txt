@@ -4,7 +4,19 @@ state={
 	provinces={
 		9853 9854 9855
 	}
-	manpower=2250
-	state_category=town
+	history={
+		owner = MTC
+		add_core_of = MTC
+		victory_points = {
+			9853 30
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+	manpower=12500
+	state_category=city
 	buildings_max_level_factor=1.000
 }

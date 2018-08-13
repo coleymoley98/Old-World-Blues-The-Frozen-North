@@ -567,3 +567,7 @@ HNA = {
 	color = rgb { 200 10 10 }
 	color_ui = rgb { 200 10 10 }
 }
+MTC = {
+	color = rgb { 34 51 204 }
+	color_ui = rgb { 34 51 204 }
+}

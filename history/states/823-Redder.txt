@@ -9,7 +9,7 @@ state={
 		owner = RDR
 		add_core_of = RDR
 		victory_points = {
-			9857 10
+			9857 30
 		}
 		buildings = {
 			infrastructure = 2

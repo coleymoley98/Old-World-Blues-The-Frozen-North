@@ -52,6 +52,15 @@ division_template = {
 		militia = { x = 1 y = 1 }
 	}
 }
+division_template = {
+	name = "Republican Guard (Mo.)"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
 units = {
   division {
     #name
@@ -75,6 +84,17 @@ units = {
       start_experience_factor = 0.2
       start_equipment_factor = 1.0
     }
+		division {
+	      #name
+	      division_name =  {    # New syntax for compatibility with name lists
+	        is_name_ordered = yes
+	        name_order = 3
+	        }
+	      location = 9684 # East Calgar
+	      division_template = "Calgar Mobile"
+	      start_experience_factor = 0.2
+	      start_equipment_factor = 1.0
+	    }
   division {
       division_name = {    # New syntax for compatibility with name lists
         is_name_ordered = yes

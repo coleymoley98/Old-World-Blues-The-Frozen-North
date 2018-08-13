@@ -1,0 +1,73 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+default = {
+	male = {
+		names = { Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses
+			Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
+			Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
+			Robert Jesse James Nathan George Joseph John Patrick Albert Braxton William Ambrose Jubal Richard
+			Lewis Edmund Leonida Benjamin Wade Daniel Thomas Jonathan Stonewall Lemual Sterling Raphael Kirby Pierre
+			Jonas Frank Charles Peter Rand Leslie Howard Malvin Oscar Henry Simon Edward Gideon Isaac Evander Jerome Alfred Cadmus
+			Carnot Ezra Wilton Hamilton Matthew Richard Hiram Thomas Elkanah John William James Albert Wilburn Walter Hinchie Samuel Benjamin
+			Henry Allison Horace Felix Jerome Lawrence Alexander Louis Steven Zach }
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Juliette" "Anna" "Kailey" "Sarah" "Taylor" "Kendra" "Angela" "Julee" Juliette Anna Angela Kendra}
+		surnames = { }
+		callsigns = { "Queen Of The Sky" "The Red Princess" }
+	}
+	surnames = { Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
+		Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates
+		Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
+		Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth
+		Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
+		Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
+		Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
+		Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
+		Wilson Wright Young Lee Jackson Johnson Beauregard Stuart Longstreet Forrest Pickett Mosby Cleburne Hood Breckenridge Bragg
+		Barksdale Early Hill Ewell Morgan Armistead Semmes Smith Hampton Polk Cheatham Wheeler Pemberton Gordon Hardee Floyd Price
+		Wise "Van Dorn" Loring Buckner Taylor Williams French Gibbs Hindman Anderson Sibley Garnett Magruder Pillow McLaws Rodes Heth
+		Pender Trimble Kershaw Wofford Kemper Law Robertson Benning Hays Walker Iverson Wilcox Mahone Wright Pettigrew Archer
+		Davis Lane Posey Scales Warner Imboden Jenkins Bee Ector Gano Granbury Green Greer Gregg Hardeman Harrison Hood Johnston King Lane Mabry Maxey McCulloch Moore
+		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
+		Wells Holmgren
+		}
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" "Dive Bomb" "The Wraith" "Rabbit" "Flat Top" "No Non-Combatants" "The Hunter"}
+}
+
+###############################################################
+# Uniques
+###############################################################
+
+MTC = {
+	male = {
+		names = {
+		Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas
+		Albert Alexander Alfred Archibald Arthur Bernard Colbert
+		Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
+		Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+		James Jeremy John Leopold Lester Martin Nathan Oswald Max
+		Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		 }
+	}
+	female = {
+		names = { Anne Marie }
+	}
+	surnames = {
+		Anthoine Bazaine Billot Bosquet Brodeur Boulanger Bourbaki Riel Boyer
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout Dubail Dubois Duchêne Dumont Dupetit Exelmans
+		Foch Forey Franchet Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Nivelle Péllissier Petain Vaillant Grey
+		Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Hastings Blackwood MacDougall
+		}
+	}

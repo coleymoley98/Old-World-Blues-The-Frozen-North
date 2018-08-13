@@ -1,12 +1,12 @@
 ﻿division_template = {
 	name = "Expeditionary Force"
 	regiments = {
-		power_armour = { x = 0 y = 0 }
-		power_armour = { x = 0 y = 1 }
-		power_armour = { x = 1 y = 0 }
-		power_armour = { x = 1 y = 1 }
-		power_armour = { x = 2 y = 0 }
-		power_armour = { x = 2 y = 1 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
 	}
 }
 units = {
@@ -27,7 +27,7 @@ units = {
 }
 
 ##### Starting Production #####
-instant_effect = {
+1instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = energy_equipment_2
@@ -41,7 +41,7 @@ instant_effect = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = power_armor_equipment_1
+			type = infantry_equipment_1
 			creator = "USK"
 		}
 		requested_factories = 2

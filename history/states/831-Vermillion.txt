@@ -3,9 +3,19 @@ state={
 	id=831
 	name="STATE_VERMILLION"
 	provinces={
-		1 9742 9788 9801 9804 
+		1 9742 9788 9801 9804
 	}
-	manpower=1000
+	history={
+		owner = MTC
+		add_core_of = MTC
+		victory_points = {
+			9788 10
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=3000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

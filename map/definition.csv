@@ -9854,6 +9854,8 @@
 9853;218;179;179;land;false;urban;0
 9854;87;71;70;land;false;plains;0
 9855;124;93;91;land;false;plains;0
-9856;186;143;135;land;false;urban;0
-9857;165;143;139;land;false;urban;0
+9856;186;143;135;land;true;urban;0
+9857;165;143;139;land;true;urban;0
 9858;186;143;138;land;false;urban;0
+9859;158;122;119;land;true;plains;0
+9860;186;121;116;land;false;plains;0

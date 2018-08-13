@@ -3,7 +3,17 @@ state={
 	id=829
 	name="STATE_LASHBURN"
 	provinces={
-		9755 9761 9790 
+		9755 9761 9790 9859 9860
+	}
+	history={
+		owner = MTC
+		add_core_of = MTC
+		victory_points = {
+			9788 10
+		}
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000
