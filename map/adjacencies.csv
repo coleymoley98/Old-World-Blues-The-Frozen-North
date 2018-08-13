@@ -172,4 +172,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9686;9682;sea;5893;-1;-1;-1;-1;;Saskatchewan Highway No. 42
 9802;9797;sea;5891;-1;-1;-1;-1;;Prince Albert
 9802;8640;sea;5892;-1;-1;-1;-1;;Prince Albert
+9790;9798;sea;5892;-1;-1;-1;-1;;Lashburn to Paradise Hill
 -1;-1;;-1;-1;-1;-1;-1;-1

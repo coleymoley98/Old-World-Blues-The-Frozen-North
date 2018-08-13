@@ -9,7 +9,7 @@ state={
 		owner = MTC
 		add_core_of = MTC
 		victory_points = {
-			9788 10
+			9790 10
 		}
 		buildings = {
 			infrastructure = 2
