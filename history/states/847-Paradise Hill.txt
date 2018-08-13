@@ -3,7 +3,7 @@ state={
 	id=847
 	name="STATE_PARADISE_HILL"
 	provinces={
-		8639 9789 9798 9809 
+		8639 9798 9809 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

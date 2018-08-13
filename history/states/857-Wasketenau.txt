@@ -3,7 +3,7 @@ state={
 	id=857
 	name="STATE_WASKETENAU"
 	provinces={
-		8638 9813 9816 9818 9821 
+		9818 9821 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

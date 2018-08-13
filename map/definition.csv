@@ -9638,7 +9638,7 @@
 9637;254;128;172;land;false;mountain;0
 9638;150;93;10;land;false;mountain;0
 9639;28;250;46;land;false;mountain;0
-9640;182;81;74;land;false;hills;0
+9640;182;81;74;land;false;hills;FNSTART
 9641;199;139;135;land;true;hills;0
 9642;130;46;40;land;true;hills;0
 9643;109;82;80;land;false;plains;0
@@ -9859,3 +9859,7 @@
 9858;186;143;138;land;false;urban;0
 9859;158;122;119;land;true;plains;0
 9860;186;121;116;land;false;plains;0
+9861;153;129;127;land;true;plains;0
+9862;195;175;173;land;false;plains;0
+9863;134;106;103;land;false;plains;0
+9864;168;110;105;land;false;plains;0
