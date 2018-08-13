@@ -157,7 +157,7 @@ CGY_INF_01 =
 }
 CGY_INF_02 =
 {
-	name = "Infantry Team"
+	name = "Recon Team"
 
 	for_countries = { CGY }
 

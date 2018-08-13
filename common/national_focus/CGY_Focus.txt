@@ -386,10 +386,10 @@ focus_tree = {
 		y = 7
 			available = {
 					if = {
-							has_government = ruler
+							CGY = {has_government = ruler}
 						}
 					OR = {
-							has_government = elites
+							CGY = {has_government = elites}
 						}
 				}
 
@@ -408,10 +408,10 @@ focus_tree = {
 		y = 7
 			available = {
 					if = {
-							has_government = people
+							CGY = {has_government = people}
 						}
 					OR = {
-							has_government = intellectuals
+							CGY = {has_government = intellectuals}
 						}
 				}
 			completion_reward = {

@@ -140,30 +140,24 @@ areas = {
 			14 # vancouver island
 			63 # graham island
 			114 # boundary territories
+			116 # south alberta
+			117 # Rocky Mountains
+			118 # central alberta
+			121 # north alberta
+			119 # south Saskatchewan
+			120 # north Saskatchewan
+			125 # west Saskatchewan
+			126 # central Saskatchewan
 			# sea
 			17 # canadian coast
 			91 # upper columbia river
 			88 # columbia estuary
 			89 # lower columbia river
+			115 # bow river
+			122 # red deer river
+			123 # north saskatchewan river
+			124 # south saskatchewan river
 		}
-	}
-	alberta_saskatchewan = {
-			strategic_regions = {
-				#land
-				116 # south alberta
-				117 # Rocky Mountains
-				118 # central alberta
-				121 # north alberta
-				119 # south Saskatchewan
-				120 # north Saskatchewan
-				125 # west Saskatchewan
-				126 # central Saskatchewan
-				#sea
-				115 # bow river
-				122 # red deer river
-				123 # north saskatchewan river
-				124 # south saskatchewan river
-			}
 	}
 	mexico = {
 		strategic_regions = {

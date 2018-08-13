@@ -1,5 +1,8 @@
-"# Old-World-Blues-The-Frozen-North" 
+"# Old-World-Blues-The-Frozen-North"
 
-Currently Crashing on Game Load, Need help finding why
+Alpha 0.1
 
 move the .mod file into the mods folder on transfer
+
+BUGS
+Currently crashes after 2 in game hours

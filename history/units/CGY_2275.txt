@@ -52,80 +52,40 @@ division_template = {
 		militia = { x = 1 y = 1 }
 	}
 }
-
-
 units = {
-	division {
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-			}
-		location = 9683 # Calgary
-		division_template = "Calgar Infantry"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division {
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 2
-			}
-		location = 9683
-		division_template = "Calgar Infantry"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division {
-			division_name = {    # New syntax for compatibility with name lists
-				is_name_ordered = yes
-				name_order = 3
-				}
-			location = 9683
-			division_template = "Calgar Mobile"
-			start_experience_factor = 0.2
-			start_equipment_factor = 1.0
-		}
-		division {
-			division_name = {    # New syntax for compatibility with name lists
-				is_name_ordered = yes
-				name_order = 4
-				}
-			location = 9844 # Lethbridge
-			division_template = "Calgar Infantry"
-			start_experience_factor = 0.2
-			start_equipment_factor = 1.0
-		}
-		division {
-			division_name = {    # New syntax for compatibility with name lists
-				is_name_ordered = yes
-				name_order = 5
-				}
-			location = 9844
-			division_template = "Calgar Infantry"
-			start_experience_factor = 0.2
-			start_equipment_factor = 1.0
-		}
-		division {
-			division_name = {    # New syntax for compatibility with name lists
-				is_name_ordered = yes
-				name_order = 6
-				}
-			location = 9710 # Banff
-			division_template = "Calgar Infantry"
-			start_experience_factor = 0.3
-			start_equipment_factor = 1.0
-		}
-		division {
-			division_name = {    # New syntax for compatibility with name lists
-				is_name_ordered = yes
-				name_order = 1
-				}
-			location = 9716 # Banff
-			division_template = "Calgar Recon"
-			start_experience_factor = 1.0
-			start_equipment_factor = 1.0
-		}
-}
+  division {
+    #name
+    division_name = {    # New syntax for compatibility with name lists
+      is_name_ordered = yes
+      name_order = 1
+      }
+    location = 9683 # Calgary
+    division_template = "Calgar Infantry"
+    start_experience_factor = 0.2
+    start_equipment_factor = 1.0
+  }
+  division {
+      #name
+      division_name =  {    # New syntax for compatibility with name lists
+        is_name_ordered = yes
+        name_order = 2
+        }
+      location = 9844 # Lethbridge
+      division_template = "Calgar Infantry"
+      start_experience_factor = 0.2
+      start_equipment_factor = 1.0
+    }
+  division {
+      division_name = {    # New syntax for compatibility with name lists
+        is_name_ordered = yes
+        name_order = 1
+        }
+      location = 9716 # Banff
+      division_template = "Calgar Recon"
+      start_experience_factor = 0.5
+      start_equipment_factor = 1.0
+    }
+  }
 
 ##### Starting Production #####
 instant_effect = {

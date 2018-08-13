@@ -163,13 +163,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6313;3529;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Pale Folk
 6314;3529;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Pale Folk
 6313;3529;impassable;-1;-1;-1;-1;-1;;Ruby Valley to Pale Folk
-9767;9780;sea;-1;-1;-1;-1;-1;;Battleford to North Battleford
-9683;9684;sea;-1;-1;-1;-1;-1;;West Calgar to East Calgar
-9673;9674;sea;-1;-1;-1;-1;-1;;West Calgar to East Calgar
-9771;9762;sea;-1;-1;-1;-1;-1;;West Skatoon to East Skatoon
-9760;9759;sea;-1;-1;-1;-1;-1;;West Skatoon to East Skatoon
-9653;2227;sea;-1;-1;-1;-1;-1;;Redder
-9686;9682;sea;-1;-1;-1;-1;-1;;Saskatchewan Highway No. 42
-9802;9797;sea;-1;-1;-1;-1;-1;;Prince Albert
-9802;8640;sea;-1;-1;-1;-1;-1;;Prince Albert
+9767;9780;sea;5890;-1;-1;-1;-1;;Battleford to North Battleford
+9683;9684;sea;9693;-1;-1;-1;-1;;West Calgar to East Calgar
+9673;9674;sea;9657;-1;-1;-1;-1;;West Calgar to East Calgar
+9771;9762;sea;5893;-1;-1;-1;-1;;West Skatoon to East Skatoon
+9760;9759;sea;5893;-1;-1;-1;-1;;West Skatoon to East Skatoon
+9857;9774;sea;5897;-1;-1;-1;-1;;Redder
+9686;9682;sea;5893;-1;-1;-1;-1;;Saskatchewan Highway No. 42
+9802;9797;sea;5891;-1;-1;-1;-1;;Prince Albert
+9802;8640;sea;5892;-1;-1;-1;-1;;Prince Albert
 -1;-1;;-1;-1;-1;-1;-1;-1
