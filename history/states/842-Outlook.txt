@@ -3,9 +3,19 @@ state={
 	id=842
 	name="STATE_OUTLOOK"
 	provinces={
-		9700 9719 9739 
+		9700 9719 9739
 	}
-	manpower=1000
+	history={
+		owner = USK
+		add_core_of = USK
+		victory_points = {
+			9700 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=5000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

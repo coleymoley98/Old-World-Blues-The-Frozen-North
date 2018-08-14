@@ -1,4 +1,4 @@
-﻿capital = 812
+﻿capital = 824
 
 oob="SSU_2275"
 set_country_flag = is_settler_nation

@@ -9,7 +9,7 @@ state={
 		owner = SSU
 		add_core_of = SSU
 		victory_points = {
-			9683 50
+			9736 50
 		}
 		buildings = {
 			infrastructure = 2
