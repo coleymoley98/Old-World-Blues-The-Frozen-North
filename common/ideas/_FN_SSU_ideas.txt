@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		GENERIC = {
+		SSU_social_gospel = {
 
 			picture = generic_morale_bonus
 
@@ -10,6 +10,7 @@ ideas = {
 
 			modifier = {
 				monthly_population = 0.15
+				local_resources_factor = 0.10
 			}
 		}
 	}
