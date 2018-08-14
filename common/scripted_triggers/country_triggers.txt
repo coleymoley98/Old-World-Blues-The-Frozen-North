@@ -77,6 +77,7 @@ is_raider_nation = {
 		original_tag = STO
 		original_tag = CBK
 		original_tag = DIN
+		original_tag = SWC
 		has_country_flag = is_raider_nation
 	}
 }
@@ -123,7 +124,6 @@ is_settler_nation = {
 #FN
 		original_tag = CGY
 		original_tag = MDH
-		original_tag = SWC
 		original_tag = RED
 		original_tag = USK
 		original_tag = SSU

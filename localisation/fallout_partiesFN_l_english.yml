@@ -1,5 +1,11 @@
 ﻿l_english:
+#CALGAR
  CGY_ruler_party:0 "The Military"
  CGY_elites_party:0 "The Barons"
  CGY_intellectuals_party:0 "The University Council"
  CGY_people_party:0 "City Council"
+#Saskatchewan Settlers' Union
+ SSU_ruler_party:0 "The Hutterites"
+ SSU_elites_party:0 "The Landowners"
+ SSU_intellectuals_party:0 "The United Church"
+ SSU_people_party:0 "The Settlers' Co-op"

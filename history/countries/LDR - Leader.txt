@@ -1,6 +1,5 @@
-﻿capital = 840
-
-oob = "SWC_2275"
+﻿capital = 866
+oob = "LDR_2275"
 set_country_flag = is_settler_nation
 
 set_technology = {
@@ -21,12 +20,12 @@ set_convoys = 100
 set_research_slots = 2
 set_politics = {
 	parties = {
-		people = { popularity = 10 }
-		elites = { popularity = 10}
+		people = { popularity = 60 }
+		elites = { popularity = 20 }
 		intellectuals = { popularity = 0 }
-		ruler = { popularity = 80 }
+		ruler = { popularity = 20 }
 	}
-	ruling_party = ruler
+	ruling_party = people
 	elections_allowed = no
 }
 
@@ -34,11 +33,11 @@ add_ideas = {
 }
 
 create_country_leader  = {
-	name = "Rowan Atwood"
+	name = "Eddie"
 	desc = "Eddie_DESC"
-	picture = "gfx/leaders/Settler/Portrait_Settler_Generic_4.dds"
+	picture = "Portrait_Eddie.dds"
 	expire = "3000.1.1"
-	ideology = warlordship
+	ideology = town_hall_democracy
 
 	traits = {
 	}

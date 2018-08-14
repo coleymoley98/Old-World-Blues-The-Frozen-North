@@ -5,7 +5,17 @@ state={
 	provinces={
 		9667 9677
 	}
-	manpower=1000
+	history={
+		owner = LDR
+		add_core_of = LDR
+		victory_points = {
+			9677 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=4000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

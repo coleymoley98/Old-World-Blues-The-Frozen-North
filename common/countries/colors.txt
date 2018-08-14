@@ -575,3 +575,11 @@ SSU = {
 	color = rgb { 93 108 83 }
 	color_ui = rgb { 93 108 83 }
 }
+LDR = {
+	color = rgb { 44 190 40 }
+	color_ui = rgb { 44 190 40 }
+}
+RIV = {
+	color = rgb { 240 255 0 }
+	color_ui = rgb { 240 255 0 }
+}

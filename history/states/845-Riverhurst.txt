@@ -3,9 +3,20 @@ state={
 	id=845
 	name="STATE_RIVERHURST"
 	provinces={
-		9669 9686 9843 
+		9669 9686 9843
 	}
-	manpower=1000
+	history={
+		owner = RIV
+		add_core_of = RIV
+		victory_points = {
+			9686 5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+	}
+	manpower=4000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

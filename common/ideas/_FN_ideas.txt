@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		GENERIC = {
+
+			picture = generic_morale_bonus
+
+			allowed = {}
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = 0.15
+			}
+		}
+	}
+}
