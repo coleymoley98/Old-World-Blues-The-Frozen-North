@@ -41,6 +41,7 @@ set_politics = {
 
 add_ideas = {
 	SSU_social_gospel
+	FN_Socialist_Party
 }
 
 create_country_leader  = {

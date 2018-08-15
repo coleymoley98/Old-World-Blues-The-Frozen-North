@@ -1,0 +1,457 @@
+﻿add_namespace = FN_election
+country_event = {
+	id = FN_election.1
+	title = FN_election.1.t
+	major = yes
+	fire_only_once = yes
+	desc = FN_election.1.d
+	is_triggered_only = yes
+	option = {
+	name = FN_election.1.a
+	ai_chance = { factor = 100 }
+	every_country = {
+		if = {
+				limit = {
+						AND = {
+								NOT = {
+										OR = {
+												has_idea = FN_Conservative_Party
+												has_idea = FN_Liberal_Party
+												has_idea = FN_Reactionary_Party
+												has_idea = FN_Socialist_Party
+												tag = VIC
+											}
+									}
+								has_government = people
+							}
+					}
+				set_country_flag = holds_elections
+				set_country_flag = term_1
+				random_list = {
+						25 = {
+								add_ideas = FN_Conservative_Party
+							}
+						25 = {
+								add_ideas = FN_Liberal_Party
+							}
+						25 = {
+								add_ideas = FN_Reactionary_Party
+							}
+						25 = {
+								add_ideas = FN_Socialist_Party
+							}
+					}
+				}
+				else_if = {
+				limit = {
+						AND = {
+								has_government = people
+								OR = {
+										has_idea = FN_Conservative_Party
+										has_idea = FN_Liberal_Party
+										has_idea = FN_Reactionary_Party
+										has_idea = FN_Socialist_Party
+									}
+							}
+					}
+				set_country_flag = holds_elections
+				set_country_flag = term_1
+				}
+				else = {}
+			}
+		every_country = { country_event = {days = 1410 id = FN_election.2} }
+		}
+	}
+country_event = {
+	id = FN_election.2
+	title = FN_election.2.t
+	picture = GFX_event_test
+	is_triggered_only = yes
+	major = yes
+	desc = FN_Election.2.d
+	option = {
+	name = FN_election.2.a
+		ai_chance = { factor = 100 }
+		country_event = { days = 30 id = FN_election.2 }
+	}
+}
+country_event = {
+	id = FN_election.3
+	title = FN_election.3.t
+	desc = FN_election.3.d
+	is_triggered_only = yes
+	option = {
+	name = FN_election.3.a
+		trigger = {
+				has_country_flag = holds_elections
+			}
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 100
+				has_country_flag = holds_elections
+			}
+		}
+		if = {
+				limit = {
+						has_government = people
+						}
+			}
+			ROOT = { country_event = FN_Election.4 }
+	}
+option = {
+	name = FN_election.3.b
+		trigger = {
+			AND = {
+				has_government = people
+				NOT = {	has_country_flag = holds_elections }
+				NOT = { tag = VIC }
+				}
+			}
+			ai_chance = {
+				factor = 0
+				modifier = {
+					factor = 100
+					has_government = people
+					NOT = {	has_country_flag = holds_elections }
+					NOT = { tag = VIC }
+				}
+			}
+			set_country_flag = holds_elections
+				random_list = {
+						25 = {
+								add_ideas = FN_Conservative_Party
+							}
+						25 = {
+								add_ideas = FN_Liberal_Party
+							}
+						25 = {
+								add_ideas = FN_Reactionary_Party
+							}
+						25 = {
+								add_ideas = FN_Socialist_Party
+							}
+					}
+				set_country_flag = term_1
+			}
+	option = {
+		name = FN_election.3.c
+		trigger = {
+			OR = {
+				tag = VIC
+				NOT = {has_government = people}
+			}
+		}
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 100
+				OR = {
+					tag = VIC
+					NOT = {has_government = people}
+				}
+			}
+		}
+		}
+	}
+country_event = {
+	id = FN_election.4
+	title = FN_election.4.t
+	is_triggered_only = yes
+	desc = FN_election.4.d
+	option = {
+		name = FN_election.4.a #Conservative
+		ai_chance = {
+				factor = 25
+				modifier = {
+						factor = 31
+						ROOT = {
+								has_idea = FN_Conservative_Party
+							}
+					}
+				modifier = {
+						factor = 22
+						ROOT = {
+								NOT = {
+										has_idea = FN_Conservative_Party
+									}
+							}
+					}
+			}
+			country_event = { days = 1 id = FN_election.5 }
+		if = {
+				limit = {
+					AND = {
+						has_idea = FN_Conservative_Party
+						has_country_flag = term_1
+						}
+				}
+				clr_country_flag = term_1
+				set_country_flag = term_2
+			}
+		else_if = {
+				limit = {
+					AND = {
+						has_idea = FN_Conservative_Party
+						has_country_flag = term_2
+					}
+				}
+		clr_country_flag = term_2
+		set_country_flag = term_3
+		}
+		else_if = {
+				limit = {
+						AND = {
+								has_idea = FN_Conservative_Party
+								has_country_flag = term_3
+							}
+					}
+				retire_country_leader = yes
+				clr_country_flag = term_3
+				set_country_flag = term_1
+			}
+		else = {
+			retire_country_leader = yes
+			remove_ideas = { FN_Liberal_Party  FN_Socialist_Party  FN_Reactionary_Party }
+			add_ideas = { FN_Conservative_Party }
+			if = {
+				limit = {
+					has_country_flag = term_1
+				}
+			clr_country_flag = term_1
+			}
+			else_if = {
+				limit = {
+					has_country_flag = term_2
+				}
+			clr_country_flag = term_2
+			}
+			else = { clr_country_flag = term_3 }
+			set_country_flag = term_1
+		}
+	}
+	option = {
+			name = FN_election.4.b #Liberal
+		  ai_chance = {
+		      factor = 25
+		      modifier = {
+		          factor = 31
+		          ROOT = {
+		              has_idea = FN_Liberal_Party
+		            }
+		        }
+		      modifier = {
+		          factor = 22
+		          ROOT = {
+		              NOT = {
+		                  has_idea = FN_Liberal_Party
+		                }
+		            }
+		        }
+		    }
+			country_event = { days = 1 id = FN_election.5 }
+			if = {
+					limit = {
+						AND = {
+							has_idea = FN_Liberal_Party
+							has_country_flag = term_1
+							}
+					}
+					clr_country_flag = term_1
+					set_country_flag = term_2
+				}
+			else_if = {
+					limit = {
+						AND = {
+							has_idea = FN_Liberal_Party
+							has_country_flag = term_2
+						}
+					}
+			clr_country_flag = term_2
+			set_country_flag = term_3
+			}
+			else_if = {
+					limit = {
+							AND = {
+									has_idea = FN_Liberal_Party
+									has_country_flag = term_3
+								}
+						}
+					retire_country_leader = yes
+					clr_country_flag = term_3
+					set_country_flag = term_1
+				}
+			else = {
+				retire_country_leader = yes
+				remove_ideas = { FN_Conservative_Party  FN_Socialist_Party  FN_Reactionary_Party }
+				add_ideas = { FN_Liberal_Party }
+				if = {
+					limit = {
+						has_country_flag = term_1
+					}
+				clr_country_flag = term_1
+				}
+				else_if = {
+					limit = {
+						has_country_flag = term_2
+					}
+				clr_country_flag = term_2
+				}
+				else = { clr_country_flag = term_3 }
+				set_country_flag = term_1
+			}
+		}
+	option = {
+				name = FN_election.4.c
+			  ai_chance = {
+			      factor = 25
+			      modifier = {
+			          factor = 31
+			          ROOT = {
+			              has_idea = FN_Reactionary_Party
+			            }
+			        }
+			      modifier = {
+			          factor = 22
+			          ROOT = {
+			              NOT = {
+			                  has_idea = FN_Reactionary_Party
+			                }
+			            }
+			        }
+			    }
+				country_event = { days = 1 id = FN_election.5 }
+				if = {
+						limit = {
+							AND = {
+								has_idea = FN_Reactionary_Party
+								has_country_flag = term_1
+								}
+						}
+						clr_country_flag = term_1
+						set_country_flag = term_2
+					}
+				else_if = {
+						limit = {
+							AND = {
+								has_idea = FN_Reactionary_Party
+								has_country_flag = term_2
+							}
+						}
+				clr_country_flag = term_2
+				set_country_flag = term_3
+				}
+				else_if = {
+						limit = {
+								AND = {
+										has_idea = FN_Reactionary_Party
+										has_country_flag = term_3
+									}
+							}
+						retire_country_leader = yes
+						clr_country_flag = term_3
+						set_country_flag = term_1
+					}
+				else = {
+					retire_country_leader = yes
+					remove_ideas = { FN_Conservative_Party  FN_Liberal_Party  FN_Socialist_Party }
+					add_ideas = { FN_Reactionary_Party }
+					if = {
+						limit = {
+							has_country_flag = term_1
+						}
+					clr_country_flag = term_1
+					}
+					else_if = {
+						limit = {
+							has_country_flag = term_2
+						}
+					clr_country_flag = term_2
+					}
+					else = { clr_country_flag = term_3 }
+					set_country_flag = term_1
+				}
+			}
+	option = {
+		name = FN_election.4.e
+	  ai_chance = {
+				      factor = 25
+				      modifier = {
+				          factor = 31
+				          ROOT = {
+				              has_idea = FN_Socialist_Party
+				            }
+				        }
+				      modifier = {
+				          factor = 22
+				          ROOT = {
+				              NOT = {
+				                  has_idea = FN_Socialist_Party
+				                }
+				            }
+				        }
+				    }
+					country_event = { days = 1 id = FN_election.5 }
+					if = {
+							limit = {
+								AND = {
+									has_idea = FN_Socialist_Party
+									has_country_flag = term_1
+									}
+							}
+							clr_country_flag = term_1
+							set_country_flag = term_2
+						}
+					else_if = {
+							limit = {
+								AND = {
+									has_idea = FN_Socialist_Party
+									has_country_flag = term_2
+								}
+							}
+					clr_country_flag = term_2
+					set_country_flag = term_3
+					}
+					else_if = {
+							limit = {
+									AND = {
+											has_idea = FN_Socialist_Party
+											has_country_flag = term_3
+										}
+								}
+							retire_country_leader = yes
+							clr_country_flag = term_3
+							set_country_flag = term_1
+						}
+					else = {
+						retire_country_leader = yes
+						remove_ideas = { FN_Conservative_Party  FN_Liberal_Party  FN_Reactionary_Party }
+						add_ideas = { FN_Socialist_Party }
+						if = {
+							limit = {
+								has_country_flag = term_1
+							}
+						clr_country_flag = term_1
+						}
+						else_if = {
+							limit = {
+								has_country_flag = term_2
+							}
+						clr_country_flag = term_2
+						}
+						else = { clr_country_flag = term_3 }
+						set_country_flag = term_1
+					}
+				}
+}
+country_event = {
+		id = FN_election.5 #Looping Elections
+		title = FN_election.5.t
+		major = yes
+		is_triggered_only = yes
+		desc = FN_election.5.d
+		option = {
+		name = FN_election.5.a
+			every_country = { country_event = {days = 1410 id = FN_Election.2} }
+		}
+}

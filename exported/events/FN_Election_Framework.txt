@@ -1,0 +1,250 @@
+add_namespace = FN_election
+country_event = {
+	id = FN_election.0
+	title = FN_election.0.t
+	picture = GFX_event_test
+	major = yes
+	fire_only_once = yes
+	desc = {
+		text = namespace.count.d.desc_id
+		trigger = {
+
+}
+
+	}
+	option = {
+	name = FN_election.0.a
+		if = {
+				limit = {
+						AND = {
+								NOT = {
+										OR = {
+												has_idea = FN_Conservative_Party
+												has_idea = FN_Liberal_Party
+												has_idea = FN_Reactionary_Party
+												has_idea = FN_Socialist_Party
+												tag = VIC
+											}
+									}
+								has_government = people
+							}
+					}
+				set_country_flag = holds_elections
+				random_list = {
+						25 = {
+								add_idea = FN_Conservative_Party
+							}
+						25 = {
+								add_idea = FN_Liberal_Party
+							}
+						25 = {
+								add_idea = FN_Reactionary_Party
+							}
+						25 = {
+								add_idea = FN_Socialist_Party
+							}
+					}
+				set_variable = {
+
+}
+			}
+		else_if = {
+				limit = {
+						AND = {
+								has_government = people
+								OR = {
+										has_idea = FN_Conservative_Party
+										has_idea = FN_Liberal_Party
+										has_idea = FN_Reactionary_Party
+										has_idea = FN_Socialist_Party
+									}
+							}
+					}
+				set_country_flag = holds_elections
+				set_variable = {
+
+}
+			}
+		set_global_flag = ElectionSys_Term
+
+	}
+trigger = {
+	date > 2275.1.3
+}
+
+	}
+country_event = {
+	id = FN_election.1
+	title = FN_election.1.t
+	picture = GFX_event_test
+	major = yes
+	desc = {
+		text = namespace.count.d.desc_id
+		trigger = {
+
+}
+
+	}
+	option = {
+	name = FN_election.1.a
+		clr_global_flag = ElectionSys_Term
+		set_global_flag = ElectionSys_Voting
+
+	}
+trigger = {
+	has_global_flag = {
+			flag = ElectionSys_Term
+			days = 1410
+		}
+}
+
+	}
+country_event = {
+	id = FN_election.2
+	title = FN_election.2.t
+	picture = GFX_event_test
+	desc = {
+		text = namespace.count.d.desc_id
+		trigger = {
+
+}
+
+	}
+	option = {
+	name = FN_election.2.a
+		trigger = {
+				has_country_flag = holds_elections
+			}
+		if = {
+				limit = {
+						government = people
+					}
+				ROOT = {
+						country_event = FN_Election.3
+					}
+			}
+
+	}
+	option = {
+	name = FN_election.2.b
+		trigger = {
+				NOT = {
+						has_government = people
+					}
+			}
+
+	}
+trigger = {
+	has_global_flag = {
+			flag = ElectionSys_Voting
+			days = 30
+		}
+}
+clr_global_flag = ElectionSys_Voting
+set_global_flag = ElectionSys_Term
+if = {
+	limit = {
+			AND = {
+					NOT = {
+							OR = {
+									has_country_flag = holds_elections
+									tag = VIC
+								}
+						}
+					government = people
+				}
+		}
+	set_country_flag = holds_elections
+}
+
+	}
+country_event = {
+	id = FN_election.3
+	title = FN_election.3.t
+	picture = GFX_event_test
+	is_triggered_only = yes
+	desc = {
+		text = namespace.count.d.desc_id
+		trigger = {
+
+}
+
+	}
+	option = {
+	name = FN_election.3.a
+		ai_chance = {
+				factor = 25
+				modifier = {
+						factor = 31
+						ROOT = {
+								has_idea = FN_Conservative_Party
+							}
+					}
+				modifier = {
+						factor = 22
+						ROOT = {
+								NOT = {
+										has_idea = FN_Conservative_Party
+									}
+							}
+					}
+			}
+		if = {
+				limit = {
+						AND = {
+								check_variable = {
+										ROOT.Term < 3
+									}
+								ROOT = {
+										has_idea = FN_Conservative_Party
+									}
+							}
+					}
+				add_to_variable = {
+						ROOT.Term = 1
+					}
+			}
+		elseif = {
+				limit = {
+						AND = {
+								check_variable = {
+										ROOT.Term = 3
+									}
+								ROOT = {
+										has_idea = FN_Conservative_Party
+									}
+							}
+					}
+				ROOT = {
+						retire_country_leader = yes
+					}
+				set_variabe = {
+						ROOT.Term = 1
+					}
+			}
+		else = {
+				ROOT = {
+						retire_country_leader = yes
+						remove_ideas = { FN_Liberal_Party  FN_Socialist_Party  FN_Reactionary_Party }
+						add_ideas = { FN_Conservative_Party }
+					}
+			}
+		set_variable = {
+				ROOT.Term = 1
+			}
+
+	}
+	option = {
+	name = FN_election.3.b
+
+	}
+	option = {
+	name = FN_election.3.c
+
+	}
+	option = {
+	name = FN_election.3.e
+
+	}
+
+	}

@@ -1,0 +1,53 @@
+add_namespace = CGY_political
+country_event = {
+	id = CGY_political.0
+	title = CGY_political.0.t
+	picture = GFX_event_test
+	is_triggered_only = yes
+	desc = {
+		text = namespace.count.d.desc_id
+		trigger = {
+
+}
+
+	}
+	option = {
+	name = namespace.count.a
+
+	}
+
+	}
+country_event = {
+	id = CGY_political.1
+	title = CGY_political.1.t
+	picture = GFX_event_test
+	desc = {
+		text = namespace.count.d.desc_id
+		trigger = {
+
+}
+
+	}
+	option = {
+	name = namespace.count.a
+
+	}
+
+	}
+country_event = {
+	id = CGY_political.2
+	title = CGY_political.2.t
+	picture = GFX_event_test
+	desc = {
+		text = namespace.count.d.desc_id
+		trigger = {
+
+}
+
+	}
+	option = {
+	name = namespace.count.a
+
+	}
+
+	}

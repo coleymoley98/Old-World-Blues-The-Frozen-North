@@ -1,7 +1,6 @@
 ﻿capital = 840
 
 oob = "SWC_2275"
-set_country_flag = is_settler_nation
 
 set_technology = {
 	standard_weaponry_tech = 1

@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FN_Conservative_Party"
+		texturefile = "gfx/interface/ideas/FN_Elections_Conservative_Party.dds"
+	}
+	spriteType = {
+		name = "GFX_FN_Liberal_Party"
+		texturefile = "gfx/interface/ideas/FN_Elections_Liberal_Party.dds"
+	}
+	spriteType = {
+		name = "GFX_FN_Socialist_Party"
+		texturefile = "gfx/interface/ideas/FN_Elections_Socialist_Party.dds"
+	}
+	spriteType = {
+		name = "GFX_FN_Reactionary_Party"
+		texturefile = "gfx/interface/ideas/FN_Elections_Reactionary_Party.dds"
+	}
+}

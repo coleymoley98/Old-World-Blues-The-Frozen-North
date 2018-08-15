@@ -1,0 +1,86 @@
+focus_tree = {
+	id = CGY_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CGY
+		}
+	}
+	default = no
+	focus = {
+		id = CGY_nf
+		icon = GFX_goal_unknown
+		cost = 1.00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = CGY_nf_demtrad
+		icon = GFX_goal_support_democracy
+		cost = 2.00
+		prerequisite = {
+			focus = CGY_nf
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = CGY_nf_newpath
+		icon = GFX_focus_wonderweapons
+		cost = 2.00
+		prerequisite = {
+			focus = CGY_nf
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = nf_CGY_intellectuals
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_nf_demtrad
+			focus = CGY_nf_newpath
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = CGY_nf_people
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_nf_demtrad
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = CGY_nf_elites
+		icon = GFX_focus_bottlecap
+		cost = 1.00
+		prerequisite = {
+			focus = CGY_nf_newpath
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = CGY_nf_ruler
+		icon = GFX_goal_generic_demand_territory
+		cost = 1.00
+		prerequisite = {
+			focus = CGY_nf_newpath
+		}
+		x = 16
+		y = 2
+
+	}
+}

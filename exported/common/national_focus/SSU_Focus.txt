@@ -1,0 +1,11 @@
+focus_tree = {
+	id = SSU_Focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SSU
+		}
+	}
+	default = no
+}

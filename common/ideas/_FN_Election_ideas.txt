@@ -1,0 +1,98 @@
+ideas = {
+	country = {
+		FN_Conservative_Party = {
+			picture = FN_Conservative_Party
+			#POLITICS
+			modifier = {
+				#Economic Effects
+				industrial_capacity_factory = 0.15 #Weaker business regulations
+				industrial_capacity_dockyard = 0.1
+				consumer_goods_factor = 0.05 #Growing Middle-Class creates higher demand
+				min_export = -0.10 #Protectionism
+				trade_opinion_factor = -0.10
+				#Social Effects
+				research_time_factor = 0.02 #Conservative Morality hinders progress
+				war_support_factor = 0.05 #Mild Jingoism
+				conscription = 0.04 #Patriotic Enlistment
+				#Foriegn Policy
+				justify_war_goal_time = -0.05 #Kissinger School
+				offensive_war_stability_factor = 0.05
+				#Con Proxy Wars
+				send_volunteer_size = 2
+				send_volunteers_tension = -0.25
+				send_volunteer_divisions_required = -0.25
+				#AI
+			}
+		}
+		FN_Liberal_Party = {
+			picture = FN_Liberal_Party
+			#POLITICS
+			modifier = {
+				#Economic Effects
+				trade_opinion_factor = 0.10 #Free trade
+				production_factory_efficiency_gain_factor = 0.05 #Moderate Work regulations
+				consumer_goods_factor = 0.05 #Growing Middle-Class creates higher demand
+				#Social Effects
+				monthly_population = 0.02 #Immigration
+				research_time_factor = -0.05 #Innovative Society
+				#Foriegn Policy
+				foreign_subversive_activites = -0.20 #governmentsupport
+				non_core_manpower = 0.04 #Open Society
+				#Limited Intervention
+				send_volunteer_size = 1
+				send_volunteers_tension = -0.05
+				send_volunteer_divisions_required = -0.25
+				#AI
+			}
+		}
+		FN_Reactionary_Party = {
+			picture = FN_Reactionary_Party
+			#POLITICS
+			modifier = {
+				political_power_factor = -0.10 #corruption
+				#Economic Effects
+				industrial_capacity_factory = 0.20 #Weaker business regulations
+				industrial_capacity_dockyard = 0.20
+				production_factory_efficiency_gain_factor = -0.50 #No workers rights
+				min_export = -0.25 #Protectionism
+				trade_opinion_factor = -0.25
+				consumer_goods_factor = -0.15 #Bad Economic Policies
+				#Social Effects
+				research_time_factor = 0.10 #No time for science
+				war_support_factor = 0.15 #Mild Jingoism
+				conscription = 0.08 #Patriotic Enlistment
+				#Foriegn Policy
+				justify_war_goal_time = -0.15 #REMEMBER THE ALAMO
+				offensive_war_stability_factor = 0.15 #Don't Dish it Out
+				defensive_war_stability_factor = -0.15 #If You Can't Take It
+				enemy_justify_war_goal_time = 0.20 #Don't shake the Hornets Nest
+				#Mercanaries
+				send_volunteer_size = 5
+				send_volunteers_tension = -0.25
+				send_volunteer_divisions_required = -0.50
+			}
+		}
+		FN_Socialist_Party = {
+			picture = FN_Socialist_Party
+			#POLITICS
+			modifier = {
+			#Economic Effects
+				industrial_capacity_factory = -0.10 #Safety over output
+				industrial_capacity_dockyard = -0.10
+				production_factory_efficiency_gain_factor = 0.15 #Proper Work regulations
+				consumer_goods_factor = 0.02 #Growing Middle-Class creates higher demand
+				#Social Effects
+				monthly_population = 0.02 #Immigration
+				research_time_factor = -0.10 #Innovative Society
+				#Foriegn Policy
+				foreign_subversive_activites = -0.20 #governmentsupport
+				non_core_manpower = 0.04 #Open Society
+				#Limited Intervention
+				send_volunteer_size = 1
+				send_volunteers_tension = -0.05
+				send_volunteer_divisions_required = -0.25
+				#AI
+			}
+		}
+	}
+}

@@ -1,13 +1,9 @@
 focus_tree = {
-	id = CGY_Focus
+	id = CGY_Focus2
 	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = CGY
-		}
+		factor = 1
 	}
-	default = no
+	default = yes
 	focus = {
 		id = CGY_focus_0
 		icon = GFX_goal_support_democracy
@@ -15,7 +11,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CGY_focus_1
 		}
-		x = 10
+		x = 8
 		y = 0
 			completion_reward = {
 					add_political_power = 300
@@ -47,6 +43,77 @@ focus_tree = {
 
 	}
 	focus = {
+		id = CGY_focus_36
+		icon = GFX_generic_supplies_focus
+		cost = 10.00
+		x = 2
+		y = 1
+		relative_position_id = CGY_focus_32
+
+	}
+	focus = {
+		id = CGY_focus_69
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 10
+		y = 13
+
+	}
+	focus = {
+		id = CGY_focus_69
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = CGY_focus_71
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 1
+		y = -1
+		relative_position_id = CGY_focus_69
+
+	}
+	focus = {
+		id = CGY_focus_75
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 22
+		y = 16
+
+	}
+	focus = {
+		id = CGY_focus_39
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_36
+		}
+		x = 2
+		y = 2
+		relative_position_id = CGY_focus_32
+
+	}
+	focus = {
+		id = CGY_focus_54
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_39
+			focus = CGY_focus_71
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_61
+			focus = CGY_focus_69
+		}
+		x = 0
+		y = 3
+		relative_position_id = CGY_focus_32
+
+	}
+	focus = {
 		id = CGY_focus_10
 		icon = GFX_CGY_Saddledome
 		cost = 10.00
@@ -56,10 +123,8 @@ focus_tree = {
 		x = 10
 		y = 1
 			completion_reward = {
-					country_event = {
-							id = nf_CGY.0
-							days = 3
-						}
+					prop = value
+					prop = value
 				}
 
 	}
@@ -70,7 +135,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_10
 		}
-		x = 10
+		x = 8
 		y = 2
 
 	}
@@ -113,39 +178,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = CGY_focus_23
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_22
-		}
-		x = 3
-		y = 5
-
-	}
-	focus = {
-		id = CGY_focus_24
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_23
-		}
-		x = 1
-		y = 6
-
-	}
-	focus = {
-		id = CGY_focus_26
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_23
-		}
-		x = 5
-		y = 6
-
-	}
-	focus = {
 		id = CGY_focus_12
 		icon = GFX_generic_generic_diplomatic_focus
 		cost = 10.00
@@ -153,8 +185,19 @@ focus_tree = {
 			focus = CGY_focus_11
 			focus = CGY_focus_35
 		}
-		x = 12
+		x = 14
 		y = 4
+
+	}
+	focus = {
+		id = CGY_focus_73
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_69
+		}
+		x = 15
+		y = 11
 
 	}
 	focus = {
@@ -195,7 +238,7 @@ focus_tree = {
 			focus = CGY_focus_4
 			focus = CGY_focus_6
 		}
-		x = 18
+		x = 19
 		y = 2
 
 	}
@@ -206,8 +249,8 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_7
 		}
-		x = 16
-		y = 3
+		x = 19
+		y = 4
 
 	}
 	focus = {
@@ -218,8 +261,53 @@ focus_tree = {
 			focus = CGY_focus_13
 			focus = CGY_focus_12
 		}
-		x = 14
+		x = 17
 		y = 5
+
+	}
+	focus = {
+		id = CGY_focus_61
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_39
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_54
+		}
+		x = -4
+		y = 2
+		relative_position_id = CGY_focus_62
+
+	}
+	focus = {
+		id = CGY_focus_62
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_61
+		}
+		x = 19
+		y = 11
+			bypass = {
+					if = {
+
+}
+					USK = {
+
+}
+				}
+
+	}
+	focus = {
+		id = CGY_focus_72
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_62
+		}
+		x = 19
+		y = 13
 
 	}
 	focus = {
@@ -229,7 +317,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_2
 		}
-		x = 22
+		x = 25
 		y = 6
 
 	}
@@ -240,36 +328,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_31
 		}
-		x = 17
-		y = 7
-
-	}
-	focus = {
-		id = CGY_focus_41
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_32
-		}
-		mutually_exclusive = {
-			focus = CGY_focus_36
-		}
-		x = 15
-		y = 8
-
-	}
-	focus = {
-		id = CGY_focus_36
-		icon = GFX_generic_supplies_focus
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_32
-		}
-		mutually_exclusive = {
-			focus = CGY_focus_41
-		}
-		x = 19
-		y = 8
+		x = -8
+		y = 1
+		relative_position_id = CGY_focus_31
 
 	}
 	focus = {
@@ -279,22 +340,33 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_31
 		}
-		x = 28
+		x = 33
 		y = 7
 
 	}
 	focus = {
-		id = CGY_focus_38
+		id = CGY_focus_67
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = CGY_focus_33
+			focus = CGY_focus_32
 		}
-		mutually_exclusive = {
-			focus = CGY_focus_42
+		prerequisite = {
+			focus = CGY_focus_33
 		}
 		x = 25
 		y = 8
+
+	}
+	focus = {
+		id = CGY_focus_70
+		icon = GFX_ALLIANCE_Brothers
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_67
+		}
+		x = 25
+		y = 9
 
 	}
 	focus = {
@@ -302,63 +374,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = CGY_focus_36
+			focus = CGY_focus_39
 		}
 		prerequisite = {
-			focus = CGY_focus_38
+			focus = CGY_focus_70
 		}
-		x = 22
-		y = 9
-
-	}
-	focus = {
-		id = CGY_focus_40
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_38
-		}
-		x = 25
-		y = 9
-
-	}
-	focus = {
-		id = CGY_focus_50
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_37
-		}
-		prerequisite = {
-			focus = CGY_focus_40
-		}
-		x = 23
+		x = 24
 		y = 10
-
-	}
-	focus = {
-		id = CGY_focus_52
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_40
-		}
-		x = 26
-		y = 10
-
-	}
-	focus = {
-		id = CGY_focus_56
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_50
-		}
-		prerequisite = {
-			focus = CGY_focus_52
-		}
-		x = 25
-		y = 11
 
 	}
 	focus = {
@@ -386,10 +408,10 @@ focus_tree = {
 		y = 7
 			available = {
 					if = {
-							CGY = {has_government = ruler}
+							has_government = ruler
 						}
 					OR = {
-							CGY = {has_government = elites}
+							has_government = elites
 						}
 				}
 
@@ -408,10 +430,10 @@ focus_tree = {
 		y = 7
 			available = {
 					if = {
-							CGY = {has_government = people}
+							has_government = people
 						}
 					OR = {
-							CGY = {has_government = intellectuals}
+							has_government = intellectuals
 						}
 				}
 			completion_reward = {
@@ -464,7 +486,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_15
 		}
-		x = 7
+		x = 8
 		y = 9
 
 	}
@@ -478,7 +500,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_16
 		}
-		x = 13
+		x = 12
 		y = 9
 
 	}
@@ -489,7 +511,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_34
 		}
-		x = 8
+		x = 6
 		y = 11
 
 	}
@@ -500,7 +522,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_34
 		}
-		x = 10
+		x = 8
 		y = 11
 
 	}
@@ -511,11 +533,30 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_18
 		}
-		prerequisite = {
-			focus = CGY_focus_60
-		}
 		x = 12
 		y = 10
+
+	}
+	focus = {
+		id = CGY_focus_23
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_22
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = CGY_focus_24
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_23
+		}
+		x = 1
+		y = 6
 
 	}
 	focus = {
@@ -526,6 +567,17 @@ focus_tree = {
 			focus = CGY_focus_23
 		}
 		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = CGY_focus_26
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_23
+		}
+		x = 5
 		y = 6
 
 	}
@@ -569,22 +621,35 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_17
 		}
-		prerequisite = {
-			focus = CGY_focus_61
-		}
-		x = 8
+		x = 6
 		y = 10
 
 	}
 	focus = {
-		id = CGY_focus_39
-		icon = GFX_goal_unknown
+		id = CGY_focus_38
+		icon = GFX_focus_1_TransCanada
 		cost = 10.00
 		prerequisite = {
-			focus = CGY_focus_36
+			focus = CGY_focus_33
 		}
-		x = 19
-		y = 9
+		mutually_exclusive = {
+			focus = CGY_focus_42
+		}
+		x = -2
+		y = 1
+		relative_position_id = CGY_focus_33
+
+	}
+	focus = {
+		id = CGY_focus_40
+		icon = GFX_focus_1_TransCanada
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_38
+		}
+		x = -2
+		y = 2
+		relative_position_id = CGY_focus_33
 
 	}
 	focus = {
@@ -597,8 +662,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CGY_focus_38
 		}
-		x = 31
-		y = 8
+		x = 2
+		y = 1
+		relative_position_id = CGY_focus_33
 
 	}
 	focus = {
@@ -636,7 +702,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CGY_focus_46
-		icon = GFX_focus_1_TransCanada
+		icon = GFX_CGY_TransCanada
 		cost = 10.00
 		prerequisite = {
 			focus = CGY_focus_45
@@ -658,8 +724,8 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_21
 		}
-		x = 13
-		y = 11
+		x = 12
+		y = 12
 
 	}
 	focus = {
@@ -669,8 +735,8 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_47
 		}
-		x = 13
-		y = 12
+		x = 12
+		y = 13
 
 	}
 	focus = {
@@ -688,14 +754,51 @@ focus_tree = {
 
 	}
 	focus = {
+		id = CGY_focus_50
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_65
+		}
+		prerequisite = {
+			focus = CGY_focus_56
+		}
+		x = 31
+		y = 13
+
+	}
+	focus = {
 		id = CGY_focus_51
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = CGY_focus_50
+			focus = CGY_focus_65
 		}
-		x = 23
-		y = 11
+		prerequisite = {
+			focus = CGY_focus_62
+		}
+		x = 25
+		y = 13
+			available = {
+					CGY = {
+							has_nation_flag = is_NCC_founder
+						}
+				}
+
+	}
+	focus = {
+		id = CGY_focus_52
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_40
+		}
+		mutually_exclusive = {
+			focus = CGY_focus_57
+		}
+		x = -1
+		y = 1
+		relative_position_id = CGY_focus_40
 
 	}
 	focus = {
@@ -705,19 +808,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_42
 		}
-		x = 31
-		y = 9
-
-	}
-	focus = {
-		id = CGY_focus_54
-		icon = GFX_focus_generic_treaty
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_39
-		}
-		x = 19
-		y = 10
+		x = 2
+		y = 2
+		relative_position_id = CGY_focus_33
 
 	}
 	focus = {
@@ -728,8 +821,23 @@ focus_tree = {
 			focus = CGY_focus_19
 			focus = CGY_focus_20
 		}
-		x = 9
+		x = 7
 		y = 12
+
+	}
+	focus = {
+		id = CGY_focus_56
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_52
+		}
+		prerequisite = {
+			focus = CGY_focus_64
+		}
+		x = 1
+		y = 1
+		relative_position_id = CGY_focus_52
 
 	}
 	focus = {
@@ -737,11 +845,16 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
+			focus = CGY_focus_40
+			focus = CGY_focus_53
+		}
+		mutually_exclusive = {
 			focus = CGY_focus_52
 			focus = CGY_focus_58
 		}
-		x = 28
-		y = 11
+		x = 0
+		y = 3
+		relative_position_id = CGY_focus_33
 
 	}
 	focus = {
@@ -751,8 +864,12 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_53
 		}
-		x = 30
-		y = 10
+		mutually_exclusive = {
+			focus = CGY_focus_57
+		}
+		x = 3
+		y = 3
+		relative_position_id = CGY_focus_33
 
 	}
 	focus = {
@@ -762,8 +879,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CGY_focus_58
 		}
-		x = 31
-		y = 11
+		x = -1
+		y = 1
+		relative_position_id = CGY_focus_58
 
 	}
 	focus = {
@@ -771,43 +889,11 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = CGY_focus_16
-		}
-		x = 11
-		y = 9
-
-	}
-	focus = {
-		id = CGY_focus_61
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_15
-		}
-		x = 9
-		y = 9
-
-	}
-	focus = {
-		id = CGY_focus_62
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_49
+			focus = CGY_focus_32
 		}
 		x = 1
-		y = 12
-
-	}
-	focus = {
-		id = CGY_focus_63
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = CGY_focus_49
-		}
-		x = 3
-		y = 12
+		y = -2
+		relative_position_id = CGY_focus_69
 
 	}
 	focus = {
@@ -815,10 +901,88 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = CGY_focus_49
+			focus = CGY_focus_40
 		}
-		x = 5
-		y = 12
+		prerequisite = {
+			focus = CGY_focus_70
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = CGY_focus_65
+		icon = GFX_ALLIANCE_New_Canadian_Confederation
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_37
+		}
+		prerequisite = {
+			focus = CGY_focus_64
+		}
+		x = 25
+		y = 11
+			available = {
+					AND = {
+							ROOT = {
+									has_country_flag = is_ALTA_founder
+								}
+							NOT = {
+									SSU = {
+											has_country_flag = is_NCC_founder
+										}
+								}
+						}
+				}
+			cancel = {
+					SSU = {
+							has_country_flag = is_NCC_founder
+						}
+				}
+
+	}
+	focus = {
+		id = CGY_focus_66
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_51
+		}
+		x = 23
+		y = 14
+
+	}
+	focus = {
+		id = CGY_focus_68
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_51
+		}
+		x = 27
+		y = 14
+
+	}
+	focus = {
+		id = CGY_focus_74
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_66
+		}
+		x = 22
+		y = 15
+
+	}
+	focus = {
+		id = CGY_focus_76
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CGY_focus_66
+		}
+		x = 24
+		y = 15
 
 	}
 }
