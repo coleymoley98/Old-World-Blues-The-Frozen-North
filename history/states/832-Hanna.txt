@@ -2,27 +2,31 @@
 state={
 	id=832
 	name="STATE_HANNA"
-	provinces={
-		2466 2556 9685 9688 9689 9695 9704 9858
+	resources={
+		water=15.000
+		metal=10.000
+		electricity=10.000
+		fuel=10.000
+		electronics=5.000
 	}
+
 	history={
 		owner = HNA
 		add_core_of = HNA
 		victory_points = {
-			9704 10
+			9704 10 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
+
 	}
-	resources = {
-	water = 15
-	metal = 10
-	electricity = 10
-	fuel = 10
-	electronics = 5
+
+	provinces={
+		2466 2556 9685 9688 9689 9695 9704 9858 9944 9945 9946 9947 9948 9949 9950 
 	}
 	manpower=6000
 	buildings_max_level_factor=1.000
