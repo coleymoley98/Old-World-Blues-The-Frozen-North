@@ -3,7 +3,7 @@ state={
 	id=827
 	name="STATE_CEREAL"
 	provinces={
-		2550 2555 9690 9699 9709
+		2550 2555 9690 9699 9709 9941 9942 9943
 	}
 	history={
 		owner = HNA
