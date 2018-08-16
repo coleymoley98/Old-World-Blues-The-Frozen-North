@@ -1,6 +1,7 @@
 ﻿l_english:
  KT_COLUMBIA:0 "Kootenay Territories"
- RM_ALBERTA:0 "Canadian Rockies"
+ RM_ALBERTA:0 "South Canadian Rockies"
+ RM_N_ALBERTA:0 "North Canadian Rockies"
  S_ALBERTA:0 "South Alberta"
  C_ALBERTA:0  "Central Alberta"
  ALBERTA_RIVER_BR:0 "Bow River"

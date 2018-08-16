@@ -59,7 +59,7 @@ country_event = {
 				}
 				else = {}
 			}
-		every_country = { country_event = {days = 1410 id = FN_election.2} }
+		every_country = { country_event = {days = 1430 id = FN_election.2} }
 		}
 	}
 country_event = {
@@ -451,7 +451,10 @@ country_event = {
 		is_triggered_only = yes
 		desc = FN_election.5.d
 		option = {
+		trigger = {
+			NOT = { is_ai = yes }
+		}
 		name = FN_election.5.a
-			every_country = { country_event = {days = 1410 id = FN_Election.2} }
+			every_country = { country_event = {days = 1430 id = FN_Election.2} }
 		}
 }
