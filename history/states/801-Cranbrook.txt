@@ -7,7 +7,7 @@ state={
 	}
 	history={
 			victory_points = {
-				2228 10
+				2642 10
 			}
 			owner = CBK
 			add_core_of = CBK

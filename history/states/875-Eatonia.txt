@@ -1,0 +1,25 @@
+
+state={
+	id=875
+	name="STATE_EATONIA"
+
+	history={
+		owner = SSU
+		add_core_of = SSU
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9705 5
+		}
+
+	}
+
+	provinces={
+		9698 9705 9708 9903
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

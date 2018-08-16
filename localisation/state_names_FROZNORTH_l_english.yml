@@ -86,4 +86,6 @@
  STATE_SHELLBROOK:0 "Shellbrook"
  STATE_SPIRITWOOD:0 "Spiritwood"
  STATE_WITCHEKAN:0 "Witchekan"
+ STATE_BEECHY:0 "Beechy"
+ STATE_EATONIA:0 "Eatonia"
  STATE_TODO:0 "Maple Creek"

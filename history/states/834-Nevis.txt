@@ -2,18 +2,22 @@
 state={
 	id=834
 	name="STATE_NEVIS"
-	provinces={
-		673 2549 9701 9715 9724 9729 9754
-	}
+
 	history={
 		owner = RDR
 		add_core_of = RDR
 		victory_points = {
-			9701 5
+			9701 5 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
+
+	}
+
+	provinces={
+		673 2549 9701 9715 9724 9729 9754 9924 9936 9942 9949 9950 9954 9958 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

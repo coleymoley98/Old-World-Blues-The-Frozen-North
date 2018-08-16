@@ -1,0 +1,25 @@
+
+state={
+	id=874
+	name="STATE_BEECHY"
+
+	history={
+		owner = SSU
+		add_core_of = SSU
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9897 5
+		}
+
+	}
+
+	provinces={
+		9679 9682 9895 9897 
+	}
+	manpower=4000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

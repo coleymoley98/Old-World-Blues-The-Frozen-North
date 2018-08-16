@@ -2,22 +2,25 @@
 state={
 	id=823
 	name="STATE_RED_DEER"
-	provinces={
-		9734 9735 9737 9752 9753 9856 9857
-	}
+
 	history={
 		owner = RDR
 		add_core_of = RDR
 		victory_points = {
-			9857 30
+			9857 30 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 			arms_factory = 2
+
 		}
+
 	}
 
+	provinces={
+		9734 9735 9737 9752 9753 9856 9857 9948 
+	}
 	manpower=11250
 	buildings_max_level_factor=1.000
 	state_category=city

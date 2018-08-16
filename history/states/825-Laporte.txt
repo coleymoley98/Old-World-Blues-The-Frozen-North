@@ -2,18 +2,22 @@
 state={
 	id=825
 	name="STATE_LAPORTE"
-	provinces={
-		9698 9705 9708 9727
-	}
+
 	history={
 		owner = SSU
 		add_core_of = SSU
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			9705 5
+			9906 5 
 		}
+
+	}
+
+	provinces={
+		2552 9727 9905 9906 9908 9910 9912 
 	}
 	manpower=4000
 	buildings_max_level_factor=1.000
