@@ -2,18 +2,22 @@
 state={
 	id=817
 	name="STATE_DRUMHELLER"
-	provinces={
-		652 8728 9656 9663 9676
-	}
+
 	history={
 		owner = DIN
 		add_core_of = DIN
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			8728 7
+			8728 7 
 		}
+
+	}
+
+	provinces={
+		652 8728 9656 9663 9676 9958 9959 9960 9961 9962 
 	}
 	manpower=1800
 	buildings_max_level_factor=1.000
