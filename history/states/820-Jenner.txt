@@ -2,18 +2,22 @@
 state={
 	id=820
 	name="STATE_JENNER"
-	provinces={
-		2553 2554 9660
-	}
+
 	history={
 		owner = MDH
 		add_core_of = MDH
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			9660 2
+			9660 2 
 		}
+
+	}
+
+	provinces={
+		2553 2554 9660 10001 10003 10004 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

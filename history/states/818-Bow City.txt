@@ -1,24 +1,24 @@
 
 state={
 	id=818
-	name="STATE_BOW_COUNTY"
+	name="STATE_TABER"
+	provinces={
+	9650 9655 9967 9969 9970
+	}
 
 	history={
-		owner = DIN
-		add_core_of = DIN
+		owner = CGY
+		add_core_of = CGY
 		buildings = {
 			infrastructure = 2
 
 		}
 		victory_points = {
-			9648 5 
+			9669 5
 		}
 
 	}
 
-	provinces={
-		9648 9650 9655 9967 9968 9969 9970 
-	}
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

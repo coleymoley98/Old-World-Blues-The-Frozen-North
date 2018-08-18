@@ -8,14 +8,16 @@ state={
 		add_core_of = CGY
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			9640 5
+			9640 5 
 		}
+
 	}
 
 	provinces={
-		2208 2588 2590 9640 9641
+		2208 2588 2590 9640 9641 9972 9973 9974 9975 9976 9977 9978 9979 
 	}
 	manpower=2000
 	buildings_max_level_factor=1.000

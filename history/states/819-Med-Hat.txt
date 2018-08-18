@@ -2,9 +2,7 @@
 state={
 	id=819
 	name="STATE_MEDHAT"
-	provinces={
-		2516 9649 9652 9653 9847 9848 9849
-	}
+
 	history={
 		owner = MDH
 		add_core_of = MDH
@@ -12,10 +10,16 @@ state={
 			infrastructure = 2
 			industrial_complex = 2
 			arms_factory = 2
+
 		}
 		victory_points = {
-			9653 30
+			9653 30 
 		}
+
+	}
+
+	provinces={
+		2516 9653 9659 9847 9848 9849 9998 9999 
 	}
 	manpower=4000
 	buildings_max_level_factor=1.000

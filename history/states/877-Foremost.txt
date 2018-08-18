@@ -1,0 +1,21 @@
+state={
+	id=877
+	name="STATE_FOREMOST"
+	provinces={
+		2517 9642 9983 9986 9987 9988
+	}
+	history={
+		owner = MDH
+		add_core_of = MDH
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9986 5
+		}
+	}
+	manpower=2000
+	state_category = shanty
+	buildings_max_level_factor=1.000
+}

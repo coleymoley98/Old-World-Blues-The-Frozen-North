@@ -7,15 +7,17 @@ state={
 		owner = CGY
 		add_core_of = CGY
 		victory_points = {
-			9661 5
+			9661 5 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
 	provinces={
-		2127 2518 2591 9661
+		2127 2518 2591 9661 9665 9980 9981 9982 
 	}
 	manpower=4500
 	buildings_max_level_factor=1.000

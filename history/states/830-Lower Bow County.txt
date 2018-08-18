@@ -2,18 +2,22 @@
 state={
 	id=830
 	name="STATE_LOW"
-	provinces={
-		623 2227 2517 9642
-	}
+
 	history={
 		owner = MDH
 		add_core_of = MDH
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			2227 5
+			2227 5 
 		}
+
+	}
+
+	provinces={
+		623 2227 9985 9989 9990 9992 9994 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

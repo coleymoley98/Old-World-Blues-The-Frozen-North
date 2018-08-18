@@ -1,21 +1,26 @@
+
 state={
 	id=860
 	name="STATE_MAPLE_CREEK"
-	provinces={
-		9643 9658 9668 9828
-	}
+
 	history={
 		owner = MDH
 		add_core_of = MDH
 		add_core_of = SWC
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
-			9658 5
+			9658 5 
 		}
+
+	}
+
+	provinces={
+		9643 9658 9668 9828 9984 9991 9997 10000 
 	}
 	manpower=1000
-	state_category=rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

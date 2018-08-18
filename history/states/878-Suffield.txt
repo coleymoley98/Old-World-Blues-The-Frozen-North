@@ -1,0 +1,21 @@
+state={
+	id=878
+	name="STATE_SUFFIELD"
+	provinces={
+		9649 9652 9993 9995 9996
+	}
+	history={
+		owner = MDH
+		add_core_of = MDH
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9996 5
+		}
+	}
+	manpower=2000
+	state_category = shanty
+	buildings_max_level_factor=1.000
+}

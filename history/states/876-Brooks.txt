@@ -1,0 +1,23 @@
+state={
+	id=876
+	name="STATE_BROOKS"
+	provinces={
+		652 9648 9656 9958 9959 9968 9971
+	}
+	history={
+		owner = DIN
+		add_core_of = DIN
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9971 5
+		}
+
+	}
+
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

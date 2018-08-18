@@ -88,4 +88,8 @@
  STATE_WITCHEKAN:0 "Witchekan"
  STATE_BEECHY:0 "Beechy"
  STATE_EATONIA:0 "Eatonia"
+ STATE_TABER:0 "Taber"
+ STATE_BROOKS:0 "Brooks"
+ STATE_SUFFIELD:0 "Suffield"
+ STATE_FOREMOST:0 "Foremost"
  STATE_TODO:0 "Maple Creek"
