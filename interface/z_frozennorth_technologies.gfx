@@ -31,4 +31,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/CGY_advanced_ballistic_weaponry_icon.dds"
 		alwaystransparent = yes
 	}
+#SSU
+	spriteType = {
+		name = "GFX_SSU_basic_ballistic_weaponry_medium"
+		texturefile = "gfx/interface/technologies/SSU_standard_weaponry_icon.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_SSU_warrior_equipment_medium"
+		texturefile = "gfx/interface/technologies/SSU_warrior_equipment_icon.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_SSU_improved_ballistic_weaponry_medium"
+		texturefile = "gfx/interface/technologies/SSU_improved_ballistic_weaponry_icon.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_SSU_advanced_ballistic_weaponry_medium"
+		texturefile = "gfx/interface/technologies/SSU_advanced_ballistic_weaponry_icon.dds"
+		alwaystransparent = yes
+	}
 }

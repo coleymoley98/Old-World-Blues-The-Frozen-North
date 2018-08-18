@@ -14,7 +14,7 @@
 	}
 }
 division_template = {
-	name = "Calgar Recon"
+	name = "Rocky Mountain Rangers"
 	division_names_group = CGY_INF_02
 	regiments = {
 		spec_ops = { x = 0 y = 0 }
@@ -101,7 +101,7 @@ units = {
         name_order = 1
         }
       location = 9716 # Banff
-      division_template = "Calgar Recon"
+      division_template = "Rocky Mountain Rangers"
       start_experience_factor = 0.5
       start_equipment_factor = 1.0
     }

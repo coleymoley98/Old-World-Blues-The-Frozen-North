@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		CGY_Cowtown = {
+
+			picture = brahmin_barons
+
+			allowed = {}
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = 0.15
+			}
+		}
+	}
+}

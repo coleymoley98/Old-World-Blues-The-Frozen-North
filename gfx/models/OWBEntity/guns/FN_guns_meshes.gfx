@@ -1,0 +1,6 @@
+objectTypes = {
+		pdxmesh = {
+				name = "Service_Rifle_mesh"
+				file = "gfx/models/OWBEntity/Guns/USA_M16.mesh"
+	}
+}

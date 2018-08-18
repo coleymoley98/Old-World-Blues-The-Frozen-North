@@ -157,7 +157,7 @@ CGY_INF_01 =
 }
 CGY_INF_02 =
 {
-	name = "Recon Team"
+	name = "Ranger Team"
 
 	for_countries = { CGY }
 
@@ -168,32 +168,32 @@ CGY_INF_02 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
 
-	fallback_name = "%d Recon Team" # Nicknames from Pre-War Hockey Teams
+	fallback_name = "%d Ranger Team" # Nicknames from Pre-War Hockey Teams
 
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst 'Cowboys' Recon Team" } # Calgary Cowboys (Canadian Division, West)
-		2 = { "%dnd 'Canadiens' Recon Team" } # Montreal Canadiens (Canadian Division, East)
-		3 = { "%drd 'Senators' Recon Team" } # Ottawa Senators (Canadian Division, East)
-		4 = { "%dth 'Maple Leafs' Recon Team" } # Toronto Maple Leafs (Canadian Division, East)
-		5 = { "%dth 'Canucks' Recon Team" } # Vancouver Canucks (Canadian Division, West)
-		6 = { "%dth 'Oilers' Recon Team" } # Edmonton Oilers (Canadian Division, West)
-		7 = { "%dth 'Nordiques' Recon Team" } # Quebec Nordiques (Canadian Division, West)
-		8 = { "%dth 'Jets' Recon Team" } # Winnipeg Jets (Canadian Division, West)
-		9 = { "%dth 'Blades' Recon Team" } # Saskatchewan Blades (Canadian Division, West)
-		10 = { "%dth 'Tigers' Recon Team" } # Hamilton Tigers (Canadian Division, East)
-		11 = { "%dth 'Bruins' Recon Team" } # Boston Bruins (American Division, East)
-		12 = { "%dth 'Red Wings' Recon Team" } # Detroit Red Wings (American Division, West)
-		13 = { "%dth 'Rangers' Recon Team" } # New York Rangers (American Division, East)
-		14 = { "%dth 'Blackhawks' Recon Team" } # Chicago Blackhawks (American Division, West)
-		15 = { "%dth 'Blues' Recon Team" } # Saint Louis Blues (American Division, West)
-		16 = { "%dth 'Quakers' Recon Team" } # Philadelphia Quakers (American Division, East)
-		17 = { "%dth 'Emeralds' Recon Team" } # Seattle Emeralds (American Division, West)
-		18 = { "%dth 'Devils' Recon Team" } # New Jersey Devils (American Division, East)
-		19 = { "%dth 'Capitals' Recon Team" } # Washington Capitals (American Division, East)
-		20 = { "%dth 'Kings' Recon Team" } # Los Angeles Kings (American Division, West)
+		1 = { "%dst 'Cowboys' Ranger Team" } # Calgary Cowboys (Canadian Division, West)
+		2 = { "%dnd 'Canadiens' Ranger Team" } # Montreal Canadiens (Canadian Division, East)
+		3 = { "%drd 'Senators' Ranger Team" } # Ottawa Senators (Canadian Division, East)
+		4 = { "%dth 'Maple Leafs' Ranger Team" } # Toronto Maple Leafs (Canadian Division, East)
+		5 = { "%dth 'Canucks' Ranger Team" } # Vancouver Canucks (Canadian Division, West)
+		6 = { "%dth 'Oilers' Ranger Team" } # Edmonton Oilers (Canadian Division, West)
+		7 = { "%dth 'Nordiques' Ranger Team" } # Quebec Nordiques (Canadian Division, West)
+		8 = { "%dth 'Jets' Ranger Team" } # Winnipeg Jets (Canadian Division, West)
+		9 = { "%dth 'Blades' Ranger Team" } # Saskatchewan Blades (Canadian Division, West)
+		10 = { "%dth 'Tigers' Ranger Team" } # Hamilton Tigers (Canadian Division, East)
+		11 = { "%dth 'Bruins' Ranger Team" } # Boston Bruins (American Division, East)
+		12 = { "%dth 'Red Wings' Ranger Team" } # Detroit Red Wings (American Division, West)
+		13 = { "%dth 'Rangers' Ranger Team" } # New York Rangers (American Division, East)
+		14 = { "%dth 'Blackhawks' Ranger Team" } # Chicago Blackhawks (American Division, West)
+		15 = { "%dth 'Blues' Ranger Team" } # Saint Louis Blues (American Division, West)
+		16 = { "%dth 'Quakers' Ranger Team" } # Philadelphia Quakers (American Division, East)
+		17 = { "%dth 'Emeralds' Ranger Team" } # Seattle Emeralds (American Division, West)
+		18 = { "%dth 'Devils' Ranger Team" } # New Jersey Devils (American Division, East)
+		19 = { "%dth 'Capitals' Ranger Team" } # Washington Capitals (American Division, East)
+		20 = { "%dth 'Kings' Ranger Team" } # Los Angeles Kings (American Division, West)
 	}
 }
 CGY_MOT_01 =
